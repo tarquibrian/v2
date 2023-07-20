@@ -38,7 +38,7 @@ const Navbar = () => {
           className="line"
           initial={{ width: "0%" }}
           animate={{ width: "100%" }}
-          transition={{ duration: 1, delay: 0.6 }}
+          transition={{ duration: 1, delay: 0.3 }}
         ></motion.div>
       </div>
     </header>
