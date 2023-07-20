@@ -4,9 +4,9 @@ export const initialState = {
   currentTheme: "dark",
   loadingComplete: false,
   threeColors: {
-    color: [0.4, 0.4, 0.4],
-    colorBase: [0.4, 0.4, 0.4],
-    colorDeep: [0.95, 0.95, 0.95],
+    color: [0.6, 0.6, 0.6],
+    colorBase: [0.6, 0.6, 0.6],
+    colorDeep: [0.85, 0.85, 0.85],
   },
 };
 

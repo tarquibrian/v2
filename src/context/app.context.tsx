@@ -10,7 +10,7 @@ const AppContext = createContext<{ state: any; dispatch: any }>({
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
-  const toggleLanguage = (currentLanguage) => {
+  const toggleLanguage = (currentLanguage: any) => {
     dispatch({
       type: "TOGGLE LANGUAGE",
       payload: {
@@ -19,7 +19,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
     });
   };
 
-  const loadingComplete = (loading) => {
+  const loadingComplete = (loading: any) => {
     dispatch({
       type: "LOADING",
       payload: {
@@ -28,7 +28,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
     });
   };
 
-  const updateColor = (colors) => {
+  const updateColor = (colors: any) => {
     dispatch({
       type: "UPDATE COLOR",
       payload: {
@@ -37,7 +37,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
     });
   };
 
-  const changeTheme = (theme) => {
+  const changeTheme = (theme: any) => {
     dispatch({
       type: "CHANGE THEME",
       payload: {
@@ -48,13 +48,13 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <AppContext.Provider
-    value={{
-      state,
-      toggleLanguage,
-      loadingComplete,
-      updateColor,
-      changeTheme,
-    }}
+      value={{
+        state,
+        toggleLanguage,
+        loadingComplete,
+        updateColor,
+        changeTheme,
+      }}
     >
       {children}
     </AppContext.Provider>

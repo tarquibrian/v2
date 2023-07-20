@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding: 1.5rem;
+}
+
+.main-wrapper {
+  border: 1px solid black;
+  position: relative;
+  min-height: calc(100vh - 3rem);
+  background-color: rgba(150, 150, 150, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
