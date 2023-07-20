@@ -12,12 +12,12 @@ const Navbar = () => {
         <div className="navbar-content">
           <div className="nav">
             <div className="logo">
-              <Image src={logo} alt="logo icon" width={60} height={60} />
+              <Image src={logo} alt="logo icon" width={50} height={50} />
             </div>
             <div className="navbar-content-main">
               <nav>
                 <Link href={"/"}>
-                  <span>HOME</span>
+                  <span>SERVICES</span>
                 </Link>
                 <Link href={"/"}>
                   <span>HOME</span>
@@ -28,7 +28,6 @@ const Navbar = () => {
               </nav>
               <div className="options">
                 <Link href={"/"}>
-                  {" "}
                   <span>CONTACT</span>
                 </Link>
               </div>
