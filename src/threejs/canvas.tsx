@@ -11,8 +11,8 @@ const ThreeCanvas = () => {
       style={{
         position: "fixed",
         inset: "0",
-        width: "100vw",
-        height: "100vh",
+        // width: "100vw",
+        // height: "100vh",
         zIndex: "-9",
       }}
     >
