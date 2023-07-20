@@ -1,5 +1,7 @@
+import ThreeCanvas from "@/threejs/canvas";
 import "../styles/globals.scss";
 import type { Metadata } from "next";
+import { AppProvider } from "@/context/app.context";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AppProvider>
+          {children}
+          <ThreeCanvas />
+        </AppProvider>
+      </body>
     </html>
   );
 }

@@ -1,9 +1,13 @@
-import { createContext, useContext, useReducer } from "react";
+"use client";
+import React, { createContext, useContext, useReducer } from "react";
 import AppReducer, { initialState } from "./app.reducer";
 
-const AppContext = createContext(initialState);
+const AppContext = createContext<{ state: any; dispatch: any }>({
+  state: initialState,
+  dispatch: () => null,
+});
 
-export const AppProvider = ({ children }) => {
+export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   const toggleLanguage = (currentLanguage) => {
@@ -44,7 +48,13 @@ export const AppProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ state, toggleLanguage, loadingComplete, updateColor, changeTheme }}
+    value={{
+      state,
+      toggleLanguage,
+      loadingComplete,
+      updateColor,
+      changeTheme,
+    }}
     >
       {children}
     </AppContext.Provider>

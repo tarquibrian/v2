@@ -1,15 +1,16 @@
+"use client";
 export const initialState = {
   currentLanguage: "en",
   currentTheme: "dark",
   loadingComplete: false,
   threeColors: {
-    color: [0.8, 0.95, 0.94],
-    colorBase: [0.38, 0.09, 0.57],
-    colorDeep: [0, 0, 0],
+    color: [0.4, 0.4, 0.4],
+    colorBase: [0.4, 0.4, 0.4],
+    colorDeep: [0.95, 0.95, 0.95],
   },
 };
 
-const AppReducer = (state, action) => {
+const AppReducer = (state: any, action: any) => {
   const { type, payload } = action;
   switch (type) {
     case "TOGGLE LANGUAGE":

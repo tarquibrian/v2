@@ -4,11 +4,11 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 import { vertex } from "./shaders/vertex";
 import { fragment } from "./shaders/fragment";
-import { useAppContext } from "src/context/app.context";
+import { useAppContext } from "../context/app.context";
 
 const Sphere = () => {
   const { state } = useAppContext();
-  const mesh = useRef();
+  const mesh = useRef<any>();
   const { color, colorBase, colorDeep } = state.threeColors;
 
   const [flagColor, setFlagColor] = useState({
@@ -216,9 +216,6 @@ const Sphere = () => {
     fragmentShader: fragment,
     vertexShader: vertex,
     side: THREE.DoubleSide,
-    extensions: {
-      derivatives: "#extension GL_OES_standard_derivatives : enable",
-    },
   });
 
   const setUniformColorFlags = () => {
@@ -340,18 +337,7 @@ const Sphere = () => {
   return (
     <mesh ref={mesh}>
       <sphereGeometry args={[1.5, 32, 32]} attach="geometry" />
-      {/* <sphereBufferGeometry args={[1, 64, 64]} attach="geometry" /> */}
       <primitive object={myShader} attach="material" />
-      {/* <shaderMaterial
-        // ref={materialRef}
-        fragmentShader={fragment}
-        vertexShader={vertex}
-        side={THREE.DoubleSide}
-        extensions={{
-          derivatives: "#extension GL_OES_standard_derivatives : enable",
-        }}
-        uniforms={uniforms}
-      /> */}
     </mesh>
   );
 };
