@@ -1,17 +1,27 @@
 //FONTS
 @import "./fonts.scss";
 
+//APP
+@import "./app/styles.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
 }
 
 body {
   padding: 1.5rem;
   font-size: 100%;
-  font-family: 'Adam';
-  font-weight: 400;
+  color: rgba(14, 14, 14, 1);
+}
+
+a {
+  all: unset;
+  box-sizing: border-box;
 }
 
 .main-wrapper {

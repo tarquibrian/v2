@@ -1,0 +1,24 @@
+#navbar {
+  .navbar-padding {
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .navbar-content {
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navbar-content-main {
+          display: flex;
+        }
+      }
+    }
+    .line {
+      width: 100%;
+      height: 1px;
+      background-color: rgba(100, 100, 100, 1);
+    }
+  }
+}
