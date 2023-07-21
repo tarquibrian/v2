@@ -1,0 +1,15 @@
+#services {
+  .services__section {
+    display: grid;
+    grid-template-columns: 1fr 1px 2fr;
+    gap: 2rem;
+    &-grid {
+      .grid__content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1px 1fr;
+        
+      }
+    }
+  }
+}
