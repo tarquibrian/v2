@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
         <LineY />
         <div className="contact__section-desc">
-          <p>
+          <p className="desc-lg">
             Together, let's elevate your brand to new heights by unleashing its
             full potential and captivating your target audience.
           </p>
