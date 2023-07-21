@@ -49,9 +49,16 @@
             object-fit: cover;
           }
         }
-
-        h3 {
+        .picture__title {
           margin-top: 1rem;
+          display: flex;
+          justify-content: space-between;
+          h3 {
+          }
+
+          span {
+            font-family: var(--ff-manrope);
+          }
         }
       }
     }

@@ -23,7 +23,10 @@ const Projects = () => {
             <div className="picture__content">
               <Image src={imgtest} alt="img test picture" />
             </div>
-            <h3 className="title-sm">Dancing Stars</h3>
+            <div className="picture__title">
+              <h3 className="title-sm">Dancing Stars</h3>
+              <span className="title-sm">2022</span>
+            </div>
           </Wrapper>
         </div>
       </div>
