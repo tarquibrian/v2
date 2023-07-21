@@ -9,7 +9,7 @@ const Clients = () => {
     <Wrapper id="clients">
       <div className="clients__section">
         <div className="clients__section-title">
-          <h2>OUR CLIENTS</h2>
+          <h2 className="title-sm">OUR CLIENTS</h2>
         </div>
         <LineY />
         <div className="clients__section-logos">

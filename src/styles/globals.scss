@@ -58,3 +58,8 @@ h4,
 h5 {
   font-size: 1rem;
 }
+
+.title-sm {
+  font-family: var(--ff-adam);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}

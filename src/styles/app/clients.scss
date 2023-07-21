@@ -8,10 +8,6 @@
     &-title {
       display: flex;
       align-items: center;
-      h2 {
-        font-family: var(--ff-adam);
-        font-size: clamp(1rem, 2vw, 1.5rem);
-      }
     }
 
     &-line {
