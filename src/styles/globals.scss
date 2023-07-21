@@ -63,6 +63,11 @@ img {
   vertical-align: middle;
 }
 
+.title-header {
+  font-size: clamp(2rem, 5vw, 6rem);
+  font-family: "Adam";
+}
+
 .title-sm {
   font-family: var(--ff-adam);
   font-size: clamp(1rem, 2vw, 1.5rem);

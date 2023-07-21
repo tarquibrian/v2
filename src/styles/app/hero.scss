@@ -1,8 +1,8 @@
 #hero {
   .hero__section {
     display: grid;
-    grid-template-columns: minmax(500px, 1.2fr) 1fr;
-    gap: 4rem;
+    grid-template-columns: minmax(200px, 1.2fr) 1fr;
+    gap: 2rem;
     padding: 3rem 0;
 
     &-main {
@@ -12,10 +12,8 @@
       gap: 1rem;
       .main__content {
         h1 {
-          font-size: 4rem;
-          font-family: "Adam";
           margin-bottom: 1rem;
-          text-transform: uppercase;
+          // text-transform: uppercase;
         }
         p {
           font-size: clamp(16px, 2vw, 22px);
@@ -27,14 +25,15 @@
     &-picture {
       display: flex;
       justify-content: flex-end;
+      overflow: hidden;
       .picture__card {
         aspect-ratio: 14 / 11;
         width: 100%;
         height: auto;
-        width: 800px;
-        overflow: hidden;
+        // max-width: 800px;
         border: 1px solid var(--b-color);
         border-radius: 8px;
+        overflow: hidden;
         &-carousel {
           height: 100%;
           width: 100%;
