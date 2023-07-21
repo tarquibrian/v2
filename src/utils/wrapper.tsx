@@ -1,5 +1,5 @@
 import React from "react";
-import Line from "./line";
+import { LineX } from "./line";
 
 interface Props {
   children?: React.ReactNode;
@@ -15,7 +15,7 @@ const Wrapper = ({ children, id, px = "3rem", py = "3rem" }: Props) => {
         <div className="wrapper-py" style={{ padding: `${py} 0` }}>
           <div className="wrapper-content">{children}</div>
         </div>
-        <Line />
+        <LineX />
       </div>
     </section>
   );

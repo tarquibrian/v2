@@ -2,6 +2,7 @@ import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import React from "react";
 import logotest from "../../../public/img/logotest.svg";
+import { LineX, LineY } from "@/utils/line";
 
 const Clients = () => {
   return (
@@ -10,7 +11,7 @@ const Clients = () => {
         <div className="clients__section-title">
           <h2>OUR CLIENTS</h2>
         </div>
-        <div className="clients__section-line"></div>
+        <LineY />
         <div className="clients__section-logos">
           <div className="logos__picture">
             <Image src={logotest} alt="logotest picture" />
