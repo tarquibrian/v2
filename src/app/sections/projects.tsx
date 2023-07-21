@@ -10,12 +10,14 @@ const Projects = () => {
     <Wrapper id="projects">
       <div className="projects__section">
         <div className="projects__section-title">
-          <h2 className="title-lg">FEATURED WORK</h2>
-          <p className="desc-md">
-            Showcasing our standout projects that blend creativity, strategy,
-            and cutting-edge design.
-          </p>
-          <Link href={"/"}>SEE ALL WORK</Link>
+          <div className="title__content">
+            <h2 className="title-lg">FEATURED WORK</h2>
+            <p className="desc-md">
+              Showcasing our standout projects that blend creativity, strategy,
+              and cutting-edge design.
+            </p>
+            <Link href={"/"}>SEE ALL WORK</Link>
+          </div>
         </div>
         <LineY />
         <div className="projects__section-grid">
