@@ -21,10 +21,46 @@ const Values = () => {
             <LineY />
             <div className="content__values-grid">
               <Wrapper id="vision" type="div">
-                <div className="vision__content">
-                  <div className="logo">1</div>
+                <div className="value__content">
+                  <div className="logo">
+                    <span>01</span>
+                  </div>
                   <div className="info">
-                    <h3 className="title-lg">VISION</h3>
+                    <h3 className="title-lg">USER-CENTRIC</h3>
+                    <p className="desc-sm">
+                      Our relentless pursuit of a shared vision fuels our
+                      creativity and propels us forward. With clarity and
+                      foresight, we craft strategies that align with our
+                      clients' goals and aspirations, transforming their dreams
+                      into reality and shaping a future worth embracing.
+                    </p>
+                  </div>
+                </div>
+              </Wrapper>
+              <Wrapper id="innovation" type="div">
+                <div className="value__content">
+                  <div className="logo">
+                    <span>02</span>
+                  </div>
+                  <div className="info">
+                    <h3 className="title-lg">INNOVATION</h3>
+                    <p className="desc-sm">
+                      Our relentless pursuit of a shared vision fuels our
+                      creativity and propels us forward. With clarity and
+                      foresight, we craft strategies that align with our
+                      clients' goals and aspirations, transforming their dreams
+                      into reality and shaping a future worth embracing.
+                    </p>
+                  </div>
+                </div>
+              </Wrapper>
+              <Wrapper id="quality" type="div">
+                <div className="value__content">
+                  <div className="logo">
+                    <span>03</span>
+                  </div>
+                  <div className="info">
+                    <h3 className="title-lg">QUALITY</h3>
                     <p className="desc-sm">
                       Our relentless pursuit of a shared vision fuels our
                       creativity and propels us forward. With clarity and
