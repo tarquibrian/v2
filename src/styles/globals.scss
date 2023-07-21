@@ -68,3 +68,20 @@ h5 {
   font-family: var(--ff-adam);
   font-size: clamp(24px, 3vw, 32px);
 }
+
+.title-lg {
+  font-family: var(--ff-adam);
+  font-size: clamp(32px, 4vw, 48px);
+}
+
+.desc-sm {
+  font-size: clamp(16px, 2vw, 16px);
+}
+
+.desc-md {
+  font-size: clamp(18px, 2vw, 20px);
+}
+
+.desc-lg {
+  font-size: clamp(16px, 2vw, 16px);
+}
