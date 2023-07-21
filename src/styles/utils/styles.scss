@@ -10,4 +10,10 @@
       background-color: var(--b-color);
     }
   }
+  @media screen and (max-width: 768px) {
+    .wrapper-px {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
 }

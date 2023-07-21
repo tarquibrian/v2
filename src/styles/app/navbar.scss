@@ -56,4 +56,10 @@
       background-color: var(--b-color);
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .navbar-padding {
+      padding: 0rem 2rem;
+    }
+  }
 }
