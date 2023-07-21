@@ -1,14 +1,27 @@
 #services {
   .services__section {
     display: grid;
-    grid-template-columns: 1fr 1px 2fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1px 2.2fr;
+    gap: 4rem;
     &-grid {
+      .grid {
+        .wrapper-px {
+          padding-left: 0rem;
+          padding-right: 0rem;
+        }
+        &:first-of-type {
+          .wrapper-py {
+            padding-top: 0rem;
+          }
+        }
+      }
       .grid__content {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1px 1fr;
-        
+        gap: 4rem;
+        &-group {
+        }
       }
     }
   }

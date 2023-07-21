@@ -7,6 +7,8 @@ interface Props {
   px?: string;
   py?: string;
   type?: string;
+  pyt?: string;
+  pyb?: string;
 }
 
 const Wrapper = ({
@@ -18,9 +20,9 @@ const Wrapper = ({
 }: Props) => {
   if (type === "div") {
     return (
-      <div id={id} className="wrapper">
-        <div className="wrapper-px" style={{ padding: `0 ${px}` }}>
-          <div className="wrapper-py" style={{ padding: `${py} 0` }}>
+      <div className={`${id} wrapper`}>
+        <div className="wrapper-px">
+          <div className="wrapper-py">
             <div className="wrapper-content">{children}</div>
           </div>
           <LineX />
@@ -30,8 +32,8 @@ const Wrapper = ({
   }
   return (
     <section id={id} className="wrapper">
-      <div className="wrapper-px" style={{ padding: `0 ${px}` }}>
-        <div className="wrapper-py" style={{ padding: `${py} 0` }}>
+      <div className="wrapper-px">
+        <div className="wrapper-py">
           <div className="wrapper-content">{children}</div>
         </div>
         <LineX />

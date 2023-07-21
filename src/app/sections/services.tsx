@@ -11,7 +11,7 @@ const Services = () => {
         </div>
         <LineY />
         <div className="services__section-grid">
-          <Wrapper id="grid" type="div" px="2rem" py="3rem">
+          <Wrapper id="grid" type="div" px="0rem" py="3rem">
             <div className="grid__content">
               <div className="grid__content-group">
                 <div className="logo">L</div>
@@ -24,7 +24,41 @@ const Services = () => {
                 </div>
               </div>
               <LineY />
-              <div className="grid__content-group">a</div>
+              <div className="grid__content-group">
+                <div className="logo">L</div>
+                <div className="content">
+                  <h3>BRANDING</h3>
+                  <p>
+                    We craft compelling brand identities that leave a lasting
+                    impression.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Wrapper>
+          <Wrapper id="grid" type="div" px="0rem" py="3rem">
+            <div className="grid__content">
+              <div className="grid__content-group">
+                <div className="logo">L</div>
+                <div className="content">
+                  <h3>BRANDING</h3>
+                  <p>
+                    We craft compelling brand identities that leave a lasting
+                    impression.
+                  </p>
+                </div>
+              </div>
+              <LineY />
+              <div className="grid__content-group">
+                <div className="logo">L</div>
+                <div className="content">
+                  <h3>BRANDING</h3>
+                  <p>
+                    We craft compelling brand identities that leave a lasting
+                    impression.
+                  </p>
+                </div>
+              </div>
             </div>
           </Wrapper>
         </div>
