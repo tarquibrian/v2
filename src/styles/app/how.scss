@@ -3,8 +3,14 @@
     display: grid;
     grid-template-columns: 2fr 1px 0.89fr;
     gap: 3rem;
+    min-height: 500px;
+    padding: 1rem 0;
 
     &-title {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: space-between;
       .title__content {
         h2 {
           font-size: 6rem;
