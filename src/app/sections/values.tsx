@@ -54,7 +54,7 @@ const Values = () => {
                   </div>
                 </div>
               </Wrapper>
-              <Wrapper id="quality" type="div">
+              <div className="quality">
                 <div className="value__content">
                   <div className="logo">
                     <span>03</span>
@@ -70,7 +70,7 @@ const Values = () => {
                     </p>
                   </div>
                 </div>
-              </Wrapper>
+              </div>
             </div>
           </div>
         </Wrapper>

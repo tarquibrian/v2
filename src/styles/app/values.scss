@@ -23,8 +23,9 @@
         &-picture {
           img {
             width: 100%;
-            height: auto;
+            height: 100%;
             object-fit: cover;
+            border-radius: 12px;
           }
         }
 
@@ -45,10 +46,7 @@
             }
           }
           .quality {
-            .wrapper-px {
-              padding-left: 0;
-              padding-right: 0;
-            }
+            padding-top: 3rem;
           }
           .value__content {
             display: flex;
