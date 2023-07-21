@@ -32,6 +32,7 @@ const Hero = () => {
               solutions in my projects.
             </p>
           </div>
+          <div className="main-logo">L</div>
         </div>
         <div className="hero__section-picture">
           <div className="picture__card">
