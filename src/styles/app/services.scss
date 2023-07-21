@@ -3,6 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1px 2.2fr;
     gap: 4rem;
+
+    &-title {
+      h2 {
+        font-family: var(--ff-adam);
+        font-size: clamp(1rem, 2vw, 1.5rem);
+      }
+    }
     &-grid {
       .grid {
         .wrapper-px {
