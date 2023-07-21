@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 2fr 1px 0.89fr;
     gap: 3rem;
-    min-height: 500px;
+    min-height: 540px;
     padding: 1rem 0;
 
     &-title {
@@ -12,6 +12,9 @@
       gap: 2rem;
       justify-content: space-between;
       .title__content {
+        span {
+          font-weight: 800;
+        }
         h2 {
           margin-top: 1rem;
           font-size: 6rem;
