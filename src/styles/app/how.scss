@@ -1,0 +1,33 @@
+#how {
+  .how__section {
+    display: grid;
+    grid-template-columns: 2fr 1px 0.89fr;
+    gap: 3rem;
+
+    &-title {
+      .title__content {
+      }
+    }
+
+    &-desc {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: space-between;
+
+      a {
+        width: fit-content;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        background-color: var(--c-dark);
+        color: var(--c-light);
+        transition: 0.2s ease;
+        letter-spacing: 1px;
+
+        &:hover {
+          background-color: var(--c-dark-hover);
+        }
+      }
+    }
+  }
+}

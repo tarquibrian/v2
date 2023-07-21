@@ -66,6 +66,7 @@ img {
 .title-sm {
   font-family: var(--ff-adam);
   font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 800;
 }
 
 .title-md {
@@ -79,13 +80,13 @@ img {
 }
 
 .desc-sm {
-  font-size: clamp(16px, 2vw, 16px);
+  font-size: clamp(12px, 2vw, 16px);
 }
 
 .desc-md {
-  font-size: clamp(18px, 2vw, 20px);
+  font-size: clamp(16px, 2vw, 20px);
 }
 
 .desc-lg {
-  font-size: clamp(16px, 2vw, 16px);
+  font-size: clamp(20px, 2vw, 24px);
 }
