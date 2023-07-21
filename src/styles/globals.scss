@@ -59,6 +59,10 @@ h5 {
   font-size: 1rem;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .title-sm {
   font-family: var(--ff-adam);
   font-size: clamp(1rem, 2vw, 1.5rem);

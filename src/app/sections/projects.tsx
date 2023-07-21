@@ -1,7 +1,9 @@
 import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import imgtest from "../../../public/img/brand.jpg";
 
 const Projects = () => {
   return (
@@ -17,7 +19,12 @@ const Projects = () => {
         </div>
         <LineY />
         <div className="projects__section-grid">
-          a
+          <Wrapper id="picture" type="div">
+            <div className="picture__content">
+              <Image src={imgtest} alt="img test picture" />
+            </div>
+            <h3 className="title-sm">Dancing Stars</h3>
+          </Wrapper>
         </div>
       </div>
     </Wrapper>
