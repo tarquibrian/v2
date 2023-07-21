@@ -30,6 +30,33 @@ const Projects = () => {
               <span className="title-sm">2022</span>
             </div>
           </Wrapper>
+          <div className="grid__subgrid">
+            <div className="grid__subgrid-group">
+              <div className="group__picture">
+                <div className="img">
+                  <Link href={"/"}>
+                    <Image src={imgtest} alt="img test picture" />
+                  </Link>
+                </div>
+                <div className="title">
+                  <h3 className="title-sm">Dancing Stars</h3>
+                  <span className="title-sm">2022</span>
+                </div>
+              </div>
+              <LineY />
+              <div className="group__picture">
+                <div className="content">
+                  <Link href={"/"}>
+                    <Image src={imgtest} alt="img test picture" />
+                  </Link>
+                </div>
+                <div className="title">
+                  <h3 className="title-sm">Dancing Stars</h3>
+                  <span className="title-sm">2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Wrapper>
