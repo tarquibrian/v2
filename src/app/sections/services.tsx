@@ -13,14 +13,14 @@ const Services = () => {
         </div>
         <LineY />
         <div className="services__section-grid">
-          <Wrapper id="grid" type="div" px="0rem" py="3rem">
+          <Wrapper id="grid" type="div">
             <div className="grid__content">
               <div className="grid__content-group">
                 <div className="logo">
                   <Image src={logotest} alt="logotest groupt" />
                 </div>
                 <div className="content">
-                  <h3>BRANDING</h3>
+                  <h3 className="title-md">BRANDING</h3>
                   <p>
                     We craft compelling brand identities that leave a lasting
                     impression.
@@ -33,7 +33,7 @@ const Services = () => {
                   <Image src={logotest} alt="logotest groupt" />
                 </div>
                 <div className="content">
-                  <h3>BRANDING</h3>
+                  <h3 className="title-md">BRANDING</h3>
                   <p>
                     We craft compelling brand identities that leave a lasting
                     impression.
@@ -42,12 +42,14 @@ const Services = () => {
               </div>
             </div>
           </Wrapper>
-          <Wrapper id="grid" type="div" px="0rem" py="3rem">
+          <Wrapper id="grid" type="div">
             <div className="grid__content">
               <div className="grid__content-group">
-                <div className="logo">L</div>
+                <div className="logo">
+                  <Image src={logotest} alt="logotest groupt" />
+                </div>
                 <div className="content">
-                  <h3>BRANDING</h3>
+                  <h3 className="title-md">BRANDING</h3>
                   <p>
                     We craft compelling brand identities that leave a lasting
                     impression.
@@ -56,9 +58,11 @@ const Services = () => {
               </div>
               <LineY />
               <div className="grid__content-group">
-                <div className="logo">L</div>
+                <div className="logo">
+                  <Image src={logotest} alt="logotest groupt" />
+                </div>
                 <div className="content">
-                  <h3>BRANDING</h3>
+                  <h3 className="title-md">BRANDING</h3>
                   <p>
                     We craft compelling brand identities that leave a lasting
                     impression.

@@ -63,3 +63,8 @@ h5 {
   font-family: var(--ff-adam);
   font-size: clamp(1rem, 2vw, 1.5rem);
 }
+
+.title-md {
+  font-family: var(--ff-adam);
+  font-size: clamp(24px, 3vw, 32px);
+}
