@@ -1,0 +1,34 @@
+#footer {
+  .footer__section {
+    &-grid {
+      display: grid;
+      grid-template-columns: 0.89fr 1px 2fr;
+      gap: 4rem;
+      min-height: 200px;
+
+      .grid__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .grid__right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        &-list {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+
+          span {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+  .author {
+    padding: 2rem 3rem;
+  }
+}
