@@ -21,7 +21,9 @@ const Projects = () => {
         <div className="projects__section-grid">
           <Wrapper id="picture" type="div">
             <div className="picture__content">
-              <Image src={imgtest} alt="img test picture" />
+              <Link href={"/"}>
+                <Image src={imgtest} alt="img test picture" />
+              </Link>
             </div>
             <div className="picture__title">
               <h3 className="title-sm">Dancing Stars</h3>

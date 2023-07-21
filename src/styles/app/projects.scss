@@ -19,6 +19,7 @@
         background-color: var(--c-dark);
         color: var(--c-light);
         transition: 0.2s ease;
+        letter-spacing: 1px;
 
         &:hover {
           background-color: var(--c-dark-hover);
