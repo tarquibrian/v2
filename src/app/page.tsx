@@ -1,4 +1,5 @@
 import Clients from "./sections/clients";
+import Contact from "./sections/contact";
 import Hero from "./sections/hero";
 import How from "./sections/how";
 import Projects from "./sections/projects";
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <How />
       <Values />
+      <Contact />
     </main>
   );
 }

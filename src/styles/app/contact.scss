@@ -1,0 +1,25 @@
+#contact {
+  .contact__section {
+    display: grid;
+    grid-template-columns: 2fr 1px 0.89fr;
+    gap: 4rem;
+    min-height: 540px;
+    padding: 1rem 0;
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .title__content {
+        span {
+          font-weight: 800;
+        }
+        h2 {
+          font-size: 6rem;
+          font-family: "Adam";
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
