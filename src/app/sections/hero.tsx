@@ -23,13 +23,15 @@ const Hero = () => {
     <Wrapper id="hero" py="4rem">
       <div className="hero__section">
         <div className="hero__section-main">
-          <h1>Building user-centric and intuitive web interfaces.</h1>
-          <p>
-            I am a continuous learning enthusiast and keep up to date with the
-            latest trends in web design and user experience. This allows me to
-            apply new techniques and technologies to offer innovative solutions
-            in my projects.
-          </p>
+          <div className="main__content">
+            <h1>Building user-centric and intuitive web interfaces.</h1>
+            <p>
+              I am a continuous learning enthusiast and keep up to date with the
+              latest trends in web design and user experience. This allows me to
+              apply new techniques and technologies to offer innovative
+              solutions in my projects.
+            </p>
+          </div>
         </div>
         <div className="hero__section-picture">
           <div className="picture__card">
