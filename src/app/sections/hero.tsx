@@ -18,6 +18,8 @@ import imgHero34 from "../../images/hero34.png";
 import imgHero41 from "../../images/hero41.png";
 import imgHero42 from "../../images/hero42.png";
 
+import logotest from "../../../public/img/logotest.svg";
+
 const Hero = () => {
   return (
     <Wrapper id="hero" py="4rem">
@@ -32,7 +34,9 @@ const Hero = () => {
               solutions in my projects.
             </p>
           </div>
-          <div className="main-logo">L</div>
+          <div className="main-logo">
+            <Image src={logotest} alt="logo test" />
+          </div>
         </div>
         <div className="hero__section-picture">
           <div className="picture__card">

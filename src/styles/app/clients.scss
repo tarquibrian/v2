@@ -1,0 +1,27 @@
+#clients {
+  .clients__section {
+    display: grid;
+    grid-template-columns: auto 1px 1fr;
+    gap: 4rem;
+    // align-items: center;
+
+    &-title {
+      display: flex;
+      align-items: center;
+      h2 {
+        font-family: var(--ff-adam);
+        font-size: clamp(1rem, 2vw, 1.5rem);
+      }
+    }
+
+    &-line {
+      background-color: var(--b-color);
+    }
+
+    &-logos {
+      display: flex;
+      justify-content: space-around;
+      gap: 1rem;
+    }
+  }
+}
