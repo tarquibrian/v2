@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto 1px 1fr;
     gap: 4rem;
-    // align-items: center;
 
     &-title {
       display: flex;
@@ -15,9 +14,13 @@
     }
 
     &-logos {
-      display: flex;
-      justify-content: space-around;
-      gap: 1rem;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 4rem;
+      .logos__picture {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 }
