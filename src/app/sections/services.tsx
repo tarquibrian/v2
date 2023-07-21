@@ -42,7 +42,7 @@ const Services = () => {
               </div>
             </div>
           </Wrapper>
-          <Wrapper id="grid" type="div">
+          <div className="grid">
             <div className="grid__content">
               <div className="grid__content-group">
                 <div className="logo">
@@ -70,7 +70,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-          </Wrapper>
+          </div>
         </div>
       </div>
     </Wrapper>

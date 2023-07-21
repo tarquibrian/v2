@@ -18,6 +18,9 @@
             padding-top: 0rem;
           }
         }
+        &:last-of-type {
+          padding-top: 3rem;
+        }
       }
       .grid__content {
         width: 100%;
