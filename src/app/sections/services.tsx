@@ -13,62 +13,72 @@ const Services = () => {
         </div>
         <LineY />
         <div className="services__section-grid">
-          <Wrapper id="grid" type="div">
+          <Wrapper id="grid gridone" type="div">
             <div className="grid__content">
-              <div className="grid__content-group">
-                <div className="logo">
-                  <Image src={logotest} alt="logotest groupt" />
+              <Wrapper id="item" type="div">
+                <div className="grid__content-group">
+                  <div className="logo">
+                    <Image src={logotest} alt="logotest groupt" />
+                  </div>
+                  <div className="content">
+                    <h3 className="title-md">BRANDING</h3>
+                    <p>
+                      We craft compelling brand identities that leave a lasting
+                      impression.
+                    </p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h3 className="title-md">BRANDING</h3>
-                  <p>
-                    We craft compelling brand identities that leave a lasting
-                    impression.
-                  </p>
-                </div>
-              </div>
+              </Wrapper>
+
               <LineY />
-              <div className="grid__content-group">
-                <div className="logo">
-                  <Image src={logotest} alt="logotest groupt" />
+              <Wrapper id="item" type="div">
+                <div className="grid__content-group">
+                  <div className="logo">
+                    <Image src={logotest} alt="logotest groupt" />
+                  </div>
+                  <div className="content">
+                    <h3 className="title-md">BRANDING</h3>
+                    <p>
+                      We craft compelling brand identities that leave a lasting
+                      impression.
+                    </p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h3 className="title-md">BRANDING</h3>
-                  <p>
-                    We craft compelling brand identities that leave a lasting
-                    impression.
-                  </p>
-                </div>
-              </div>
+              </Wrapper>
             </div>
           </Wrapper>
-          <div className="grid">
+          <div className="grid gridtwo">
             <div className="grid__content">
-              <div className="grid__content-group">
-                <div className="logo">
-                  <Image src={logotest} alt="logotest groupt" />
+              <Wrapper id="item" type="div">
+                <div className="grid__content-group">
+                  <div className="logo">
+                    <Image src={logotest} alt="logotest groupt" />
+                  </div>
+                  <div className="content">
+                    <h3 className="title-md">BRANDING</h3>
+                    <p>
+                      We craft compelling brand identities that leave a lasting
+                      impression.
+                    </p>
+                  </div>
                 </div>
-                <div className="content">
-                  <h3 className="title-md">BRANDING</h3>
-                  <p>
-                    We craft compelling brand identities that leave a lasting
-                    impression.
-                  </p>
+              </Wrapper>
+
+              <LineY id="intern"/>
+              <Wrapper id="item" type="div">
+                <div className="grid__content-group">
+                  <div className="logo">
+                    <Image src={logotest} alt="logotest groupt" />
+                  </div>
+                  <div className="content">
+                    <h3 className="title-md">BRANDING</h3>
+                    <p>
+                      We craft compelling brand identities that leave a lasting
+                      impression.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <LineY />
-              <div className="grid__content-group">
-                <div className="logo">
-                  <Image src={logotest} alt="logotest groupt" />
-                </div>
-                <div className="content">
-                  <h3 className="title-md">BRANDING</h3>
-                  <p>
-                    We craft compelling brand identities that leave a lasting
-                    impression.
-                  </p>
-                </div>
-              </div>
+              </Wrapper>
             </div>
           </div>
         </div>

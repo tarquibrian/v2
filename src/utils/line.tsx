@@ -34,7 +34,7 @@ const LineX = () => {
   );
 };
 
-const LineY = () => {
+const LineY = ({ id }: { id?: string }) => {
   const ref = useRef();
   const [refView, inView] = useInView();
   const controls = useAnimation();
@@ -46,7 +46,7 @@ const LineY = () => {
   }, [controls, inView]);
   return (
     <motion.div
-      className="line-x"
+      className={`line-x ${id}`}
       ref={refView}
       initial="hidden"
       animate={controls}
