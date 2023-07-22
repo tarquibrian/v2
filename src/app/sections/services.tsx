@@ -11,7 +11,7 @@ const Services = () => {
         <div className="services__section-title">
           <h2 className="title-sm">WHAT I DO</h2>
         </div>
-        <LineY />
+        <LineY id="intern"/>
         <div className="services__section-grid">
           <Wrapper id="grid gridone" type="div">
             <div className="grid__content">
