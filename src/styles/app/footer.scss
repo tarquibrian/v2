@@ -68,4 +68,23 @@
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .footer__section {
+      &-grid {
+        .grid__right {
+          grid-template-columns: 1fr 1fr;
+          &-list {
+            gap: 1rem;
+          }
+        }
+      }
+    }
+    .author {
+      .author-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
 }
