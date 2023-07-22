@@ -8,14 +8,17 @@ const Footer = () => {
     <footer id="footer">
       <Wrapper id="footer__section" type="div">
         <div className="footer__section-grid">
-          <div className="grid__info">
-            <div className="grid__info-content">
-              <div className="logo">L</div>
-              <span>Brian Tarqui Rojas</span>
-              <span>Bolivia</span>
+          <Wrapper id="item" type="div">
+            <div className="grid__info">
+              <div className="grid__info-content">
+                <div className="logo">L</div>
+                <span>Brian Tarqui Rojas</span>
+                <span>Bolivia</span>
+              </div>
+              <div className="grid__info-socials">a</div>
             </div>
-            <div className="grid__info-socials">a</div>
-          </div>
+          </Wrapper>
+
           <LineY />
           <div className="grid__right">
             <div className="grid__right-list">

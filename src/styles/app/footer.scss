@@ -6,6 +6,24 @@
       gap: 4rem;
       min-height: 200px;
 
+      .item {
+        .wrapper-px {
+          padding: 0;
+          height: 100%;
+        }
+        .wrapper-py {
+          padding: 0;
+          height: 100%;
+        }
+        .wrapper-line {
+          display: none;
+        }
+        .wrapper-content {
+          height: 100%;
+          display: flex;
+        }
+      }
+
       .grid__info {
         display: flex;
         flex-direction: column;
@@ -30,5 +48,24 @@
   }
   .author {
     padding: 2rem 3rem;
+  }
+  @media screen and (max-width: 1080px) {
+    .footer__section {
+      &-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        .item {
+          .wrapper-py {
+            padding-bottom: 3rem;
+          }
+          .wrapper-line {
+            display: block;
+          }
+        }
+        .grid__info {
+          gap: 4rem;
+        }
+      }
+    }
   }
 }
