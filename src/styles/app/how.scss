@@ -59,7 +59,8 @@
         }
       }
       &-desc {
-        gap: 0;
+        gap: 2rem;
+        justify-content: flex-end;
       }
     }
   }

@@ -10,13 +10,12 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      gap: 2rem;
       .title__content {
         span {
           font-weight: 800;
         }
         h2 {
-          font-size: 6rem;
-          font-family: "Adam";
           margin-top: 1rem;
           margin-left: -8px;
         }
@@ -41,6 +40,19 @@
         &:hover {
           background-color: var(--c-dark-hover);
         }
+      }
+    }
+    @media screen and (max-width: 1080px) {
+      grid-template-columns: 1fr;
+      .intern {
+        display: none;
+      }
+      &-title {
+        justify-content: flex-start;
+      }
+      &-desc {
+        gap: 2rem;
+        justify-content: flex-end;
       }
     }
   }

@@ -10,11 +10,11 @@ const Contact = () => {
         <div className="contact__section-title">
           <div className="title__content">
             <span className="title-sm">CONTACT</span>
-            <h2>LET'S BRING YOUR BRAND TO THE NEXT LEVEL</h2>
+            <h2 className="title-header">LET'S BRING YOUR BRAND TO THE NEXT LEVEL</h2>
           </div>
           <div className="title__logo">L</div>
         </div>
-        <LineY />
+        <LineY id="intern"/>
         <div className="contact__section-desc">
           <p className="desc-lg">
             Together, let's elevate your brand to new heights by unleashing its
