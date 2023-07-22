@@ -120,21 +120,14 @@
       &-grid {
         .grid__subgrid {
           gap: 3rem;
-          .two {
-            .item {
-              &:last-of-type {
-                .wrapper-line {
-                  display: none;
-                }
-              }
-            }
-          }
+
           &-group {
             grid-template-columns: 1fr;
             gap: 3rem;
             .item {
               .wrapper-py {
                 // padding: 3rem ;
+                padding-bottom: 2rem;
               }
               .wrapper-line {
                 display: block;
@@ -142,6 +135,18 @@
             }
             .line-x {
               display: none;
+            }
+          }
+          .two {
+            .item {
+              &:last-of-type {
+                .wrapper-py {
+                  padding-bottom: 0;
+                }
+                .wrapper-line {
+                  display: none;
+                }
+              }
             }
           }
         }
