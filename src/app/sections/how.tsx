@@ -10,11 +10,11 @@ const How = () => {
         <div className="how__section-title">
           <div className="title__content">
             <span className="title-sm">HOW I WORK</span>
-            <h2>We help our clients succeed with innovative strategies.</h2>
+            <h2 className="title-header">We help our clients succeed with innovative strategies.</h2>
           </div>
           <div className="title__logo">L</div>
         </div>
-        <LineY />
+        <LineY id="inter"/>
         <div className="how__section-desc">
           <p className="desc-lg">
             Through careful analysis, creative thinking, and a deep

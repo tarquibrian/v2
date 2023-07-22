@@ -17,8 +17,6 @@
         }
         h2 {
           margin-top: 1rem;
-          font-size: 6rem;
-          font-family: "Adam";
           margin-bottom: 1rem;
         }
       }
@@ -42,6 +40,13 @@
         &:hover {
           background-color: var(--c-dark-hover);
         }
+      }
+    }
+
+    @media screen and (max-width: 1080px) {
+      grid-template-columns: 1fr;
+      .inter {
+        display: none;
       }
     }
   }
