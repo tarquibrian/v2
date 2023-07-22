@@ -33,55 +33,64 @@ const Projects = () => {
             </div>
           </Wrapper>
           <div className="grid__subgrid">
-            <div className="grid__subgrid-group">
-              <div className="group__picture">
-                <div className="img">
-                  <Link href={"/"}>
-                    <Image src={imgtest} alt="img test picture" />
-                  </Link>
+            <div className="grid__subgrid-group one">
+              <Wrapper id="item" type="div">
+                <div className="group__picture">
+                  <div className="img">
+                    <Link href={"/"}>
+                      <Image src={imgtest} alt="img test picture" />
+                    </Link>
+                  </div>
+                  <div className="title">
+                    <h3 className="title-sm">Dancing Stars</h3>
+                    <span className="title-sm">2022</span>
+                  </div>
                 </div>
-                <div className="title">
-                  <h3 className="title-sm">Dancing Stars</h3>
-                  <span className="title-sm">2022</span>
-                </div>
-              </div>
+              </Wrapper>
               <LineY />
-              <div className="group__picture">
-                <div className="img">
-                  <Link href={"/"}>
-                    <Image src={imgtest} alt="img test picture" />
-                  </Link>
+              <Wrapper id="item" type="div">
+                <div className="group__picture">
+                  <div className="img">
+                    <Link href={"/"}>
+                      <Image src={imgtest} alt="img test picture" />
+                    </Link>
+                  </div>
+                  <div className="title">
+                    <h3 className="title-sm">Dancing Stars</h3>
+                    <span className="title-sm">2022</span>
+                  </div>
                 </div>
-                <div className="title">
-                  <h3 className="title-sm">Dancing Stars</h3>
-                  <span className="title-sm">2022</span>
-                </div>
-              </div>
+              </Wrapper>
             </div>
-            <div className="grid__subgrid-group">
-              <div className="group__picture">
-                <div className="img">
-                  <Link href={"/"}>
-                    <Image src={imgtest} alt="img test picture" />
-                  </Link>
+            <div className="grid__subgrid-group two">
+              <Wrapper id="item" type="div">
+                <div className="group__picture">
+                  <div className="img">
+                    <Link href={"/"}>
+                      <Image src={imgtest} alt="img test picture" />
+                    </Link>
+                  </div>
+                  <div className="title">
+                    <h3 className="title-sm">Dancing Stars</h3>
+                    <span className="title-sm">2022</span>
+                  </div>
                 </div>
-                <div className="title">
-                  <h3 className="title-sm">Dancing Stars</h3>
-                  <span className="title-sm">2022</span>
-                </div>
-              </div>
+              </Wrapper>
+
               <LineY />
-              <div className="group__picture">
-                <div className="img">
-                  <Link href={"/"}>
-                    <Image src={imgtest} alt="img test picture" />
-                  </Link>
+              <Wrapper id="item" type="div">
+                <div className="group__picture">
+                  <div className="img">
+                    <Link href={"/"}>
+                      <Image src={imgtest} alt="img test picture" />
+                    </Link>
+                  </div>
+                  <div className="title">
+                    <h3 className="title-sm">Dancing Stars</h3>
+                    <span className="title-sm">2022</span>
+                  </div>
                 </div>
-                <div className="title">
-                  <h3 className="title-sm">Dancing Stars</h3>
-                  <span className="title-sm">2022</span>
-                </div>
-              </div>
+              </Wrapper>
             </div>
           </div>
         </div>

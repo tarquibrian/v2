@@ -79,6 +79,15 @@
           grid-template-columns: 1fr 1px 1fr;
           gap: 3rem;
 
+          .item {
+            .wrapper-line {
+              display: none;
+            }
+            .wrapper-py {
+              padding: 0;
+            }
+          }
+
           .group__picture {
             .img {
               overflow: hidden;
@@ -102,6 +111,37 @@
               span {
                 font-family: var(--ff-manrope);
               }
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 1080px) {
+      &-grid {
+        .grid__subgrid {
+          gap: 3rem;
+          .two {
+            .item {
+              &:last-of-type {
+                .wrapper-line {
+                  display: none;
+                }
+              }
+            }
+          }
+          &-group {
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            .item {
+              .wrapper-py {
+                // padding: 3rem ;
+              }
+              .wrapper-line {
+                display: block;
+              }
+            }
+            .line-x {
+              display: none;
             }
           }
         }
