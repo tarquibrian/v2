@@ -2,11 +2,12 @@
   .clients__section {
     display: grid;
     grid-template-columns: auto 1px 1fr;
-    gap: 4rem;
+    row-gap: 1rem;
 
     &-title {
       display: flex;
       align-items: center;
+      padding-right: 4rem;
     }
 
     &-line {
@@ -16,10 +17,29 @@
     &-logos {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      gap: 4rem;
+      row-gap: 3rem;
       .logos__picture {
         display: flex;
         justify-content: center;
+      }
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .clients__section {
+      &-logos {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .clients__section {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .clients__section {
+      &-logos {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   }
