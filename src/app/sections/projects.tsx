@@ -19,7 +19,7 @@ const Projects = () => {
             <Link href={"/"}>SEE ALL WORK</Link>
           </div>
         </div>
-        <LineY />
+        <LineY id="intern"/>
         <div className="projects__section-grid">
           <Wrapper id="picture" type="div">
             <div className="picture__content">
