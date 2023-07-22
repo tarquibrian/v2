@@ -45,8 +45,21 @@
 
     @media screen and (max-width: 1080px) {
       grid-template-columns: 1fr;
+      gap: 6rem;
       .inter {
         display: none;
+      }
+      &-title {
+        gap: 2rem;
+        justify-content: flex-start;
+        .title__content {
+          h2 {
+            margin-bottom: 0rem;
+          }
+        }
+      }
+      &-desc {
+        gap: 0;
       }
     }
   }
