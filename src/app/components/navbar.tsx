@@ -31,9 +31,18 @@ const Navbar = () => {
           <div className="liney"></div>
           <div className="main__socials">
             <div className="main__socials-icons">
-              <div className="dribbble icon">
+              <div className="en">
+                <span>EN</span>
+              </div>
+              <div className="es">
+                <span>ES</span>
+              </div>
+              {/* <div className="dribbble icon">
                 <DribbbleIcon />
               </div>
+              <div className="linkedin icon">
+                <LinkedinIcon />
+              </div> */}
               {/* <LinkedinIcon /> */}
               {/* <InstagramIcon /> */}
               {/* <GithubIcon /> */}

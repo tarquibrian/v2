@@ -14,7 +14,7 @@
     .navbar-content-main {
       display: flex;
       align-items: center;
-      gap: 3rem;
+      gap: 1.5rem;
       .main__menu {
         display: flex;
         align-items: center;
@@ -65,6 +65,27 @@
       }
       .main__socials {
         &-icons {
+          display: flex;
+          gap: 0.5rem;
+
+          .en,
+          .es {
+            font-family: "Adam";
+            font-weight: 800;
+            width: 35px;
+            height: 35px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10rem;
+            padding-top: 3px;
+
+            &:hover {
+              background-color: rgba(14, 14, 14, 1);
+              color: white;
+            }
+          }
         }
       }
     }
