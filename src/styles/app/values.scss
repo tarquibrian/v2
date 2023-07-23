@@ -7,8 +7,6 @@
         justify-content: center;
       }
       h2 {
-        font-size: 6rem;
-        font-family: var(--ff-adam);
         margin-bottom: -0.8rem;
       }
     }
@@ -77,6 +75,35 @@
         .content__values {
           grid-template-columns: 1fr;
           gap: 2rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      &-content {
+        .content__values {
+          &-grid {
+            .value__content {
+              gap: 2rem;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 480px) {
+      &-content {
+        .content__values {
+          &-grid {
+            .value__content {
+              gap: 1.5rem;
+              .logo {
+                span {
+                  width: 40px;
+                  height: 40px;
+                }
+              }
+            }
+          }
         }
       }
     }

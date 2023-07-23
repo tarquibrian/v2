@@ -87,4 +87,13 @@
       }
     }
   }
+  @media screen and (max-width: 480px) {
+    .footer__section {
+      &-grid {
+        .grid__right {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
 }

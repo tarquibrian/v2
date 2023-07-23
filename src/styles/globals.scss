@@ -95,3 +95,9 @@ img {
 .desc-lg {
   font-size: clamp(20px, 2vw, 24px);
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0.7rem;
+  }
+}

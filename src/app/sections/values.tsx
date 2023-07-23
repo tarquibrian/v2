@@ -10,7 +10,7 @@ const Values = () => {
       <div className="values__section">
         <Wrapper id="values__section-title" type="div">
           <div className="title__content">
-            <h2>MY VALUES</h2>
+            <h2 className="title-header">MY VALUES</h2>
           </div>
         </Wrapper>
         <Wrapper id="values__section-content" type="div">
