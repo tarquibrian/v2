@@ -8,6 +8,7 @@ import { LineY } from "@/utils/line";
 import LinkedinIcon from "./icons/linkedin";
 import InstagramIcon from "./icons/instagram";
 import GithubIcon from "./icons/github";
+import DribbbleIcon from "./icons/dribbble";
 
 const Navbar = () => {
   return (
@@ -30,9 +31,12 @@ const Navbar = () => {
           <div className="liney"></div>
           <div className="main__socials">
             <div className="main__socials-icons">
-              <LinkedinIcon />
-              <InstagramIcon />
-              <GithubIcon />
+              <div className="dribbble icon">
+                <DribbbleIcon />
+              </div>
+              {/* <LinkedinIcon /> */}
+              {/* <InstagramIcon /> */}
+              {/* <GithubIcon /> */}
             </div>
           </div>
         </div>
