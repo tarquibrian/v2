@@ -5,6 +5,7 @@ import React from "react";
 import logo from "../../../public/img/darvy-icon.png";
 import { motion } from "framer-motion";
 import { LineY } from "@/utils/line";
+import LinkedinIcon from "./icons/linkedin";
 
 const Navbar = () => {
   return (
@@ -14,23 +15,22 @@ const Navbar = () => {
           <Image src={logo} alt="logo icon" width={50} height={50} />
         </div>
         <div className="navbar-content-main">
-          <nav className="links-menu">
-            <Link href={"/"}>
-              <span>SERVICES</span>
-            </Link>
-            <Link href={"/"}>
-              <span>HOME</span>
-            </Link>
-            <Link href={"/"}>
-              <span>HOME</span>
-            </Link>
-          </nav>
-          <div className="options">
-            <Link href={"/"}>
-              <span>CONTACT</span>
+          <div className="main__menu">
+            <nav>
+              <Link href={"/"}>HOME</Link>
+              <Link href={"/"}>HOME</Link>
+              <Link href={"/"}>HOME</Link>
+            </nav>
+            <Link href={"/"} className="main__menu-contact">
+              CONTACT
             </Link>
           </div>
           <div className="liney"></div>
+          <div className="main__socials">
+            <div className="linkedin">
+              <LinkedinIcon />
+            </div>
+          </div>
         </div>
       </div>
       <motion.div

@@ -10,41 +10,43 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     .navbar-content-main {
       display: flex;
-      // align-items: center;
+      align-items: center;
       gap: 3rem;
-      nav {
+      .main__menu {
         display: flex;
-        gap: 2rem;
-        a {
-          position: relative;
-          font-size: clamp(14px, 3vw, 16px);
-          &::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0%;
-            height: 1px;
-            background-color: rgba(14, 14, 14, 1);
-            transition: 0.2s ease;
-          }
-          &:hover {
+        align-items: center;
+        gap: 3rem;
+        nav {
+          display: flex;
+          gap: 2rem;
+          a {
+            position: relative;
+            font-size: clamp(14px, 3vw, 16px);
             &::after {
-              width: 100%;
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 0%;
+              height: 1px;
+              background-color: rgba(14, 14, 14, 1);
+              transition: 0.2s ease;
+            }
+            &:hover {
+              &::after {
+                width: 100%;
+              }
             }
           }
-        }
 
-        @media screen and (max-width: 1080px) {
-          display: none;
+          @media screen and (max-width: 1080px) {
+            display: none;
+          }
         }
-      }
-      .options {
-        a {
+        &-contact {
           background-color: rgba(14, 14, 14, 1);
           color: white;
           padding: 0.5rem 0.8rem;
@@ -59,6 +61,7 @@
       .liney {
         height: 100%;
         width: 1px;
+        background-color: black;
       }
     }
   }
