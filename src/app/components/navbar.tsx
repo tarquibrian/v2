@@ -6,6 +6,8 @@ import logo from "../../../public/img/darvy-icon.png";
 import { motion } from "framer-motion";
 import { LineY } from "@/utils/line";
 import LinkedinIcon from "./icons/linkedin";
+import InstagramIcon from "./icons/instagram";
+import GithubIcon from "./icons/github";
 
 const Navbar = () => {
   return (
@@ -27,8 +29,10 @@ const Navbar = () => {
           </div>
           <div className="liney"></div>
           <div className="main__socials">
-            <div className="linkedin">
+            <div className="main__socials-icons">
               <LinkedinIcon />
+              <InstagramIcon />
+              <GithubIcon />
             </div>
           </div>
         </div>

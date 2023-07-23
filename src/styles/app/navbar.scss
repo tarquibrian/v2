@@ -63,6 +63,16 @@
         width: 1px;
         background-color: black;
       }
+      .main__socials {
+        &-icons {
+          display: flex;
+          svg {
+            display: flex;
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
     }
   }
 
