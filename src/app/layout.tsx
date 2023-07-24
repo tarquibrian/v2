@@ -1,7 +1,6 @@
 import ThreeCanvas from "@/threejs/canvas";
 import "../styles/globals.scss";
 import type { Metadata } from "next";
-import { AppProvider } from "@/context/app.context";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
@@ -18,14 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AppProvider>
-          <div className="main-wrapper">
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
-          <ThreeCanvas />
-        </AppProvider>
+        {/* <AppProvider> */}
+        <div className="main-wrapper">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+        <ThreeCanvas />
+        {/* </AppProvider> */}
       </body>
     </html>
   );
