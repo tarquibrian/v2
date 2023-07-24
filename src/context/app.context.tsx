@@ -7,24 +7,6 @@ const AppContext = createContext(initialState);
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
-  const toggleLanguage = (currentLanguage: any) => {
-    dispatch({
-      type: "TOGGLE LANGUAGE",
-      payload: {
-        currentLanguage,
-      },
-    });
-  };
-
-  const updateColor = (colors: any) => {
-    dispatch({
-      type: "UPDATE COLOR",
-      payload: {
-        colors,
-      },
-    });
-  };
-
   const changeTheme = (theme: any) => {
     dispatch({
       type: "CHANGE THEME",
@@ -37,9 +19,6 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     <AppContext.Provider
       value={{
-        state,
-        toggleLanguage,
-        updateColor,
         changeTheme,
       }}
     >
