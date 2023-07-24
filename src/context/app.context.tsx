@@ -2,10 +2,7 @@
 import React, { createContext, useContext, useReducer } from "react";
 import AppReducer, { initialState } from "./app.reducer";
 
-const AppContext = createContext<{ state: any; dispatch: any }>({
-  state: initialState,
-  dispatch: () => null,
-});
+const AppContext = createContext(initialState);
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
@@ -15,15 +12,6 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
       type: "TOGGLE LANGUAGE",
       payload: {
         currentLanguage,
-      },
-    });
-  };
-
-  const loadingComplete = (loading: any) => {
-    dispatch({
-      type: "LOADING",
-      payload: {
-        loading,
       },
     });
   };
@@ -51,7 +39,6 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
       value={{
         state,
         toggleLanguage,
-        loadingComplete,
         updateColor,
         changeTheme,
       }}
