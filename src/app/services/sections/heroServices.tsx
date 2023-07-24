@@ -10,9 +10,9 @@ const HeroServices = () => {
         </div>
         <div className="heroservices__section-subnav">
           <a href="#branding">BRANDING</a>
-          <a href="http://">DESIGN</a>
-          <a href="http://">CONTENT</a>
-          <a href="http://">SUPPORT</a>
+          <a href="#design">DESIGN</a>
+          <a href="#content">CONTENT</a>
+          <a href="#support">SUPPORT</a>
         </div>
       </div>
     </Wrapper>
