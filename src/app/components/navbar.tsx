@@ -1,16 +1,23 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../../public/img/darvy-icon.png";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
-import LinkedinIcon from "./icons/linkedin";
-import InstagramIcon from "./icons/instagram";
-import GithubIcon from "./icons/github";
-import DribbbleIcon from "./icons/dribbble";
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (toggleMenu) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [toggleMenu]);
+
   return (
     <header id="navbar">
       <div className="navbar-padding">
@@ -28,7 +35,7 @@ const Navbar = () => {
               CONTACT
             </Link>
           </div>
-          <div className="liney"></div>
+          <LineY id="lineone"/>
           <div className="main__socials">
             <div className="main__socials-icons">
               <div className="en">
@@ -48,7 +55,55 @@ const Navbar = () => {
               {/* <GithubIcon /> */}
             </div>
           </div>
+          <LineY id="linetwo"/>
+          <button
+            className="iconmenu"
+            onClick={() => {
+              setToggleMenu(!toggleMenu);
+            }}
+          >
+            <div className="iconmenu__line"></div>
+            <div className="iconmenu__line"></div>
+            <div className="iconmenu__line"></div>
+          </button>
         </div>
+        <motion.div
+          className="sidebar"
+          initial="hidden"
+          animate={controls}
+          variants={{
+            visible: {
+              display: "block",
+              transform: "translateY(100%)",
+              opacity: 1,
+              transition: {
+                duration: 0.3,
+              },
+            },
+            hidden: {
+              opacity: 0,
+              transform: "translateY(110%)",
+              transition: {
+                duration: 0.3,
+              },
+              transitionEnd: {
+                display: "none",
+              },
+            },
+          }}
+        >
+          <div className="sidebar-links">
+            <Link href={"/"} className="link">HOME</Link>
+            <Link href={"/"} className="link">HOME</Link>
+            <Link href={"/"} className="link">HOME</Link>
+            <div className="contactt">
+              <div className="">CONTACT</div>
+              <Link href={"/"} className="contact-link">
+                LETS TALK
+              </Link>
+            </div>
+          </div>
+        </motion.div>
       </div>
       <motion.div
         className="line"

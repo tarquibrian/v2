@@ -40,7 +40,7 @@ a {
   border: 1px solid var(--b-color);
   position: relative;
   min-height: calc(100vh - 3rem);
-  // background-color: rgba(150, 150, 150, 0.1);
+  background-color: rgba(150, 150, 150, 0.1);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   max-width: 1980px;
@@ -49,6 +49,8 @@ a {
 
 .line-x {
   background-color: var(--b-color);
+  height: 100%;
+  width: 1px;
 }
 
 h1,
@@ -61,6 +63,12 @@ h5 {
 
 img {
   vertical-align: middle;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .title-header {
