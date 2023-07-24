@@ -63,5 +63,12 @@
         }
       }
     }
+    @media screen and (max-width: 1080px) {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      .intern {
+        display: none;
+      }
+    }
   }
 }
