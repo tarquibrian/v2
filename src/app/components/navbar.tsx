@@ -5,10 +5,12 @@ import React, { useEffect, useState } from "react";
 import logo from "../../../public/img/darvy-icon.png";
 import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const controls = useAnimation();
+  const pathname = usePathname();
 
   useEffect(() => {
     if (toggleMenu) {
@@ -16,7 +18,7 @@ const Navbar = () => {
     } else {
       controls.start("hidden");
     }
-  }, [toggleMenu]);
+  }, [toggleMenu, pathname]);
 
   return (
     <header id="navbar">
@@ -35,7 +37,7 @@ const Navbar = () => {
               CONTACT
             </Link>
           </div>
-          <LineY id="lineone"/>
+          <LineY id="lineone" />
           <div className="main__socials">
             <div className="main__socials-icons">
               <div className="en">
@@ -55,7 +57,7 @@ const Navbar = () => {
               {/* <GithubIcon /> */}
             </div>
           </div>
-          <LineY id="linetwo"/>
+          <LineY id="linetwo" />
           <button
             className="iconmenu"
             onClick={() => {
@@ -93,9 +95,15 @@ const Navbar = () => {
           }}
         >
           <div className="sidebar-links">
-            <Link href={"/"} className="link">HOME</Link>
-            <Link href={"/"} className="link">HOME</Link>
-            <Link href={"/"} className="link">HOME</Link>
+            <Link href={"/"} className="link">
+              HOME
+            </Link>
+            <Link href={"/"} className="link">
+              HOME
+            </Link>
+            <Link href={"/"} className="link">
+              HOME
+            </Link>
             <div className="contactt">
               <div className="">CONTACT</div>
               <Link href={"/"} className="contact-link">
