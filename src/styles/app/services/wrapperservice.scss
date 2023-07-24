@@ -70,5 +70,20 @@
         display: none;
       }
     }
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      gap: 2rem;
+
+      &-desc {
+        gap: 2rem;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      &-desc {
+        .desc__content {
+          column-count: 1;
+        }
+      }
+    }
   }
 }
