@@ -1,18 +1,18 @@
 import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import imgtext from "../../../../public/img/brand.jpg";
-import Image from "next/image";
+import imgtest from "../../../../public/img/brand.jpg";
 
-const BrandingServices = () => {
+const SupportService = () => {
   return (
-    <Wrapper id="branding">
+    <Wrapper id="support">
       <div className="wrapperservice__section">
         <div className="wrapperservice__section-info">
           <div className="title__content">
             <div className="logo">L</div>
-            <h2>BRANDING</h2>
+            <h2 className="">BRANDING</h2>
             <div className="">LOGO</div>
             <div className="">CORPORATE IDENTITY</div>
             <div className="">BRAND GUIDE</div>
@@ -41,7 +41,7 @@ const BrandingServices = () => {
             </p>
           </div>
           <div className="desc__picture">
-            <Image src={imgtext} alt="picture brand sercivice" />
+            <Image src={imgtest} alt="picture brand sercivice" />
           </div>
         </div>
       </div>
@@ -49,4 +49,4 @@ const BrandingServices = () => {
   );
 };
 
-export default BrandingServices;
+export default SupportService;
