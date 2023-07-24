@@ -1,0 +1,32 @@
+#heroservices {
+  .heroservices__section {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 450px;
+    padding: 1rem 0;
+
+    &-title {
+      max-width: 850px;
+    }
+
+    &-subnav {
+      display: flex;
+      gap: 1rem;
+      a {
+        // background-color: var(--c-dark);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: 0.2s ease;
+        border: 1px solid var(--c-dark);
+        letter-spacing: 1px;
+
+        &:hover {
+          background-color: var(--c-dark);
+          color: var(--c-light);
+        }
+      }
+    }
+  }
+}

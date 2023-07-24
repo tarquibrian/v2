@@ -29,12 +29,12 @@ const Navbar = () => {
         <div className="navbar-content-main">
           <div className="main__menu">
             <nav>
-              <Link href={"/"}>HOME</Link>
-              <Link href={"/"}>HOME</Link>
-              <Link href={"/"}>HOME</Link>
+              <Link href={"/services"}>SERVICES</Link>
+              <Link href={"/"}>WORK</Link>
+              <Link href={"/"}>ABOUT</Link>
             </nav>
             <Link href={"/"} className="main__menu-contact">
-              CONTACT
+              LET'S TALK
             </Link>
           </div>
           <LineY id="lineone" />
