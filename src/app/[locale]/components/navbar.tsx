@@ -82,30 +82,30 @@ const Navbar = () => {
             <div className="iconmenu__line"></div>
           </button>
         </div>
-        <div
-          className={`sidebar ${toggleMenu ? "show" : "hidden"}`}
-          // initial="hidden"
-          // animate={controls}
-          // variants={{
-          //   visible: {
-          //     display: "block",
-          //     transform: "translateY(100%)",
-          //     opacity: 1,
-          //     transition: {
-          //       duration: 0.2,
-          //     },
-          //   },
-          //   hidden: {
-          //     opacity: 0,
-          //     transform: "translateY(110%)",
-          //     transition: {
-          //       duration: 0.2,
-          //     },
-          //     transitionEnd: {
-          //       display: "none",
-          //     },
-          //   },
-          // }}
+        <motion.div
+          className={`sidebar`}
+          initial="hidden"
+          animate={controls}
+          variants={{
+            visible: {
+              display: "block",
+              transform: "translateY(100%)",
+              opacity: 1,
+              transition: {
+                duration: 0.2,
+              },
+            },
+            hidden: {
+              opacity: 0,
+              transform: "translateY(105%)",
+              transition: {
+                duration: 0.2,
+              },
+              transitionEnd: {
+                display: "none",
+              },
+            },
+          }}
         >
           <div className="sidebar-links">
             <Link href={"/services"} className="link">
@@ -124,7 +124,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <motion.div
         className="line"
