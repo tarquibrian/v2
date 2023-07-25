@@ -25,6 +25,11 @@
         nav {
           display: flex;
           gap: 2rem;
+          .active {
+            &::after {
+              width: 100%;
+            }
+          }
           a {
             position: relative;
             font-size: clamp(14px, 3vw, 16px);

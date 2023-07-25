@@ -9,9 +9,9 @@ import Link from "next-intl/link";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [active, setActive] = useState<string>();
   const controls = useAnimation();
   const pathname = usePathname();
-  const newpath = pathname.split("/es");
 
   useEffect(() => {
     if (toggleMenu) {
@@ -19,7 +19,7 @@ const Navbar = () => {
     } else {
       controls.start("hidden");
     }
-  }, [toggleMenu, pathname]);
+  }, [toggleMenu, pathname, active]);
 
   return (
     <header id="navbar">
@@ -30,9 +30,27 @@ const Navbar = () => {
         <div className="navbar-content-main">
           <div className="main__menu">
             <nav>
-              <Link href={"/services"}>SERVICES</Link>
-              <Link href={"/work"}>WORK</Link>
-              <Link href={"/"}>ABOUT</Link>
+              <Link
+                href={"/services"}
+                className={active === "services" ? "active" : ""}
+                onClick={() => setActive("services")}
+              >
+                SERVICES
+              </Link>
+              <Link
+                href={"/work"}
+                className={active === "work" ? "active" : ""}
+                onClick={() => setActive("work")}
+              >
+                WORK
+              </Link>
+              <Link
+                href={"/"}
+                className={active === "about" ? "active" : ""}
+                onClick={() => setActive("services")}
+              >
+                ABOUT
+              </Link>
             </nav>
             <Link href={"/"} className="main__menu-contact">
               LET'S TALK
