@@ -15,10 +15,22 @@ interface SingleProject {
   img: string;
 }
 
-const projectsData: Lang = {
+export const projectsData: Lang = {
   es: {
     title: "Our branding success stories.",
     projects: [
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
       {
         title: "asdf",
         services: ["hola", "hola"],
@@ -36,6 +48,18 @@ const projectsData: Lang = {
   en: {
     title: "Our branding success stories.",
     projects: [
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
       {
         title: "asdf",
         services: ["hola", "hola"],

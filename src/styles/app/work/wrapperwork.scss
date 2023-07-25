@@ -1,0 +1,20 @@
+#worklist {
+  .project {
+    .wrapper-px {
+      padding: 0;
+    }
+    &:first-of-type {
+      .wrapper-py {
+        padding-top: 0;
+      }
+    }
+    &:last-of-type {
+      .wrapper-py {
+        padding-bottom: 0;
+      }
+      .wrapper-line {
+        display: none;
+      }
+    }
+  }
+}
