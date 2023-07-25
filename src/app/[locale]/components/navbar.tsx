@@ -9,7 +9,6 @@ import Link from "next-intl/link";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [active, setActive] = useState<string>();
   const controls = useAnimation();
   const pathname = usePathname();
 
@@ -19,7 +18,7 @@ const Navbar = () => {
     } else {
       controls.start("hidden");
     }
-  }, [toggleMenu, pathname, active]);
+  }, [toggleMenu, pathname]);
 
   return (
     <header id="navbar">
@@ -32,23 +31,21 @@ const Navbar = () => {
             <nav>
               <Link
                 href={"/services"}
-                className={active === "services" ? "active" : ""}
-                onClick={() => setActive("services")}
+                className={
+                  pathname.split("/")[1] === "services" ? "active" : ""
+                }
               >
                 SERVICES
               </Link>
               <Link
                 href={"/work"}
-                className={active === "work" ? "active" : ""}
-                onClick={() => setActive("work")}
+                className={pathname.split("/")[1] === "work" ? "active" : ""}
               >
                 WORK
               </Link>
               <Link
                 href={"/about"}
-                className={active === "about" ? "active" : ""}
-                onClick={() => setActive("about")}
-                
+                className={pathname.split("/")[1] === "about" ? "active" : ""}
               >
                 ABOUT
               </Link>
