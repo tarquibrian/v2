@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import logo from "../../../../public/img/darvy-icon.png";
 import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
 import { usePathname } from "next/navigation";
-import Linkk from "next-intl/link";
+import Link from "next-intl/link";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -31,9 +30,9 @@ const Navbar = () => {
         <div className="navbar-content-main">
           <div className="main__menu">
             <nav>
-              <Linkk href={"/services"}>SERVICES</Linkk>
-              <Linkk href={"/work"}>WORK</Linkk>
-              <Linkk href={"/"}>ABOUT</Linkk>
+              <Link href={"/services"}>SERVICES</Link>
+              <Link href={"/work"}>WORK</Link>
+              <Link href={"/"}>ABOUT</Link>
             </nav>
             <Link href={"/"} className="main__menu-contact">
               LET'S TALK
@@ -42,12 +41,12 @@ const Navbar = () => {
           <LineY id="lineone" />
           <div className="main__socials">
             <div className="main__socials-icons">
-              <Linkk href={`/`} locale="en" className="en">
+              <Link href={`/`} locale="en" className="en">
                 <span>EN</span>
-              </Linkk>
-              <Linkk href={`/${pathname}`} locale="es" className="es">
+              </Link>
+              <Link href={`/${pathname}`} locale="es" className="es">
                 <span>ES</span>
-              </Linkk>
+              </Link>
             </div>
           </div>
           <LineY id="linetwo" />
