@@ -12,6 +12,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const controls = useAnimation();
   const pathname = usePathname();
+  const newpath = pathname.split("/es");
 
   useEffect(() => {
     if (toggleMenu) {
@@ -30,9 +31,9 @@ const Navbar = () => {
         <div className="navbar-content-main">
           <div className="main__menu">
             <nav>
-              <Link href={"/services"}>SERVICES</Link>
-              <Link href={"/work"}>WORK</Link>
-              <Link href={"/"}>ABOUT</Link>
+              <Linkk href={"/services"}>SERVICES</Linkk>
+              <Linkk href={"/work"}>WORK</Linkk>
+              <Linkk href={"/"}>ABOUT</Linkk>
             </nav>
             <Link href={"/"} className="main__menu-contact">
               LET'S TALK
