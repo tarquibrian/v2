@@ -34,6 +34,10 @@
             }
           }
         }
+        .link-group {
+          display: flex;
+          gap: 1rem;
+        }
         @keyframes effectline {
           0% {
             width: 0%;
@@ -41,10 +45,6 @@
           100% {
             width: 100%;
           }
-        }
-        .link-group {
-          display: flex;
-          gap: 1rem;
         }
       }
     }
