@@ -1,0 +1,37 @@
+#herosinglework {
+  .herosinglework__section {
+    display: grid;
+    grid-template-columns: 2fr 1px 1fr;
+    gap: 4rem;
+    padding: 1rem 0;
+
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .details__content {
+        .label-title {
+          margin-bottom: 4px;
+        }
+        .label-desc {
+          font-weight: 600;
+        }
+        .link-group {
+          display: flex;
+          gap: 1rem;
+          a {
+            position: relative;
+            &::after {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 1px;
+              background-color: var(--c-dark);
+            }
+          }
+        }
+      }
+    }
+  }
+}

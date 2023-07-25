@@ -6,7 +6,6 @@ import img from "../../../../../public/img/brand.jpg";
 import Image from "next/image";
 
 const WorkList = () => {
-  console.log(projectsData);
   return (
     <Wrapper id="worklist">
       {projectsData.en.projects.map((project) => {
