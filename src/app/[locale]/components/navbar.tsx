@@ -41,10 +41,10 @@ const Navbar = () => {
           <LineY id="lineone" />
           <div className="main__socials">
             <div className="main__socials-icons">
-              <Linkk href={"/"} locale="en" className="en">
+              <Linkk href={`/`} locale="en" className="en">
                 <span>EN</span>
               </Linkk>
-              <Linkk href={"/"} locale="es" className="es">
+              <Linkk href={`/${pathname}`} locale="es" className="es">
                 <span>ES</span>
               </Linkk>
             </div>
