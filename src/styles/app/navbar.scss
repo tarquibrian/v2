@@ -118,6 +118,7 @@
       z-index: 99999;
       background-color: rgb(221, 221, 221);
       transition: 0.3s ease;
+      transform: translateY(110%);
       .sidebar-links {
         display: flex;
         flex-direction: column;
@@ -165,7 +166,7 @@
         }
       }
       .sidebar {
-        display: flex;
+        // display: flex;
       }
     }
   }
