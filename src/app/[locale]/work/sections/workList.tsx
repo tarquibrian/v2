@@ -25,7 +25,7 @@ const WorkList = () => {
                   </div>
                 </div>
 
-                <Link href={"/"}>{project.button}</Link>
+                <Link href={`/${project.title}`}>{project.button}</Link>
               </div>
               <div className="project__content-picture">
                 <div className="picture__content">

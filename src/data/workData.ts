@@ -9,6 +9,7 @@ interface Projects {
 }
 
 interface SingleProject {
+  id: string;
   title: string;
   services: string[];
   button: string;
@@ -20,24 +21,28 @@ export const projectsData: Lang = {
     title: "Our branding success stories.",
     projects: [
       {
+        id: "pauls-burger",
         title: "PAULS BURGER",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
@@ -49,24 +54,28 @@ export const projectsData: Lang = {
     title: "Our branding success stories.",
     projects: [
       {
+        id: "pauls-burger",
         title: "PAULS BURGER",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
       },
       {
+        id: "pauls-burger",
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
