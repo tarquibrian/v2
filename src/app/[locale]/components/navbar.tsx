@@ -6,6 +6,7 @@ import logo from "../../../../public/img/darvy-icon.png";
 import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
 import { usePathname } from "next/navigation";
+import Linkk from "next-intl/link";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -40,21 +41,12 @@ const Navbar = () => {
           <LineY id="lineone" />
           <div className="main__socials">
             <div className="main__socials-icons">
-              <Link href={"/"} locale="en" className="en">
+              <Linkk href={"/"} locale="en" className="en">
                 <span>EN</span>
-              </Link>
-              <Link href={"/"} locale="es" className="es">
+              </Linkk>
+              <Linkk href={"/"} locale="es" className="es">
                 <span>ES</span>
-              </Link>
-              {/* <div className="dribbble icon">
-                <DribbbleIcon />
-              </div>
-              <div className="linkedin icon">
-                <LinkedinIcon />
-              </div> */}
-              {/* <LinkedinIcon /> */}
-              {/* <InstagramIcon /> */}
-              {/* <GithubIcon /> */}
+              </Linkk>
             </div>
           </div>
           <LineY id="linetwo" />

@@ -20,13 +20,16 @@ import imgHero42 from "../../../images/hero42.png";
 
 import logotest from "../../../../public/img/logotest.svg";
 
+import { useTranslations } from "next-intl";
+
 const Hero = () => {
+  const t = useTranslations("Index");
   return (
     <Wrapper id="hero" py="4rem">
       <div className="hero__section">
         <div className="hero__section-main">
           <div className="main__content">
-            <h1 className="title-header">Building user-centric and intuitive web interfaces.</h1>
+            <h1 className="title-header">{t("title")}</h1>
             <p className="desc-lg">
               I am a continuous learning enthusiast and keep up to date with the
               latest trends in web design and user experience. This allows me to
