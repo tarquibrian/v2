@@ -15,11 +15,7 @@
         }
         .label-desc {
           font-weight: 600;
-        }
-        .link-group {
-          display: flex;
-          gap: 1rem;
-          a {
+          .link {
             position: relative;
             overflow: hidden;
             &::after {
@@ -37,14 +33,18 @@
               }
             }
           }
-          @keyframes effectline {
-            0% {
-              width: 0%;
-            }
-            100% {
-              width: 100%;
-            }
+        }
+        @keyframes effectline {
+          0% {
+            width: 0%;
           }
+          100% {
+            width: 100%;
+          }
+        }
+        .link-group {
+          display: flex;
+          gap: 1rem;
         }
       }
     }

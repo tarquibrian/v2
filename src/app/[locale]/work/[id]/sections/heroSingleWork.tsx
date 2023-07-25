@@ -32,14 +32,16 @@ const HeroSingleWork = () => {
           <div className="details__content">
             <div className="label-title">SERVICES</div>
             <div className="label-desc link-group">
-              <Link href={"/services"}>DESIGN</Link>
-              <Link href={"/services"}>DESIGN</Link>
-              <Link href={"/services"}>DESIGN</Link>
+              <Link href={"/services"} className="link">DESIGN</Link>
+              <Link href={"/services"} className="link">DESIGN</Link>
+              <Link href={"/services"} className="link">DESIGN</Link>
             </div>
           </div>
           <div className="details__content">
-            <div className="label-title">CLIENT</div>
-            <div className="label-desc">LOREM IPSUN</div>
+            <div className="label-title">WEBSITE</div>
+            <div className="label-desc">
+              <Link href={"/"} className="link">WEBSITE.COM</Link>
+            </div>
           </div>
         </div>
       </div>
