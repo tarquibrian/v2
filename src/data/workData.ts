@@ -20,7 +20,7 @@ export const projectsData: Lang = {
     title: "Our branding success stories.",
     projects: [
       {
-        title: "asdf",
+        title: "PAULS BURGER",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
@@ -49,7 +49,7 @@ export const projectsData: Lang = {
     title: "Our branding success stories.",
     projects: [
       {
-        title: "asdf",
+        title: "PAULS BURGER",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
         img: "p1",
