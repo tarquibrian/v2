@@ -3,6 +3,20 @@
     "title": "Hola mundo"
   },
   "Services": {
-    "title": "Creamos tu marca juntos."
+    "title": "Creamos tu marca juntos.",
+    "projects": {
+      "project1": {
+        "title": "BRANDING"
+      },
+      "project2": {
+        "title": "DISEÑO"
+      },
+      "project3": {
+        "title": "CONTENIDO"
+      },
+      "project4": {
+        "title": "SOPORTE"
+      }
+    }
   }
 }
