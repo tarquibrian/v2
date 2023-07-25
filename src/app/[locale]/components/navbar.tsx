@@ -18,7 +18,11 @@ const Navbar = () => {
     } else {
       controls.start("hidden");
     }
-  }, [toggleMenu, pathname]);
+  }, [toggleMenu]);
+
+  useEffect(() => {
+    setToggleMenu(false);
+  }, [pathname]);
 
   return (
     <header id="navbar">
@@ -70,6 +74,7 @@ const Navbar = () => {
             className="iconmenu"
             onClick={() => {
               setToggleMenu(!toggleMenu);
+              console.log(toggleMenu);
             }}
           >
             <div className="iconmenu__line"></div>
@@ -78,7 +83,7 @@ const Navbar = () => {
           </button>
         </div>
         <motion.div
-          className="sidebar"
+          className={`sidebar`}
           initial="hidden"
           animate={controls}
           variants={{
@@ -87,14 +92,14 @@ const Navbar = () => {
               transform: "translateY(100%)",
               opacity: 1,
               transition: {
-                duration: 0.3,
+                duration: 0.2,
               },
             },
             hidden: {
               opacity: 0,
               transform: "translateY(110%)",
               transition: {
-                duration: 0.3,
+                duration: 0.2,
               },
               transitionEnd: {
                 display: "none",
@@ -103,14 +108,14 @@ const Navbar = () => {
           }}
         >
           <div className="sidebar-links">
-            <Link href={"/"} className="link">
-              HOME
+            <Link href={"/services"} className="link">
+              SERVICES
             </Link>
-            <Link href={"/"} className="link">
-              HOME
+            <Link href={"/work"} className="link">
+              WORK
             </Link>
-            <Link href={"/"} className="link">
-              HOME
+            <Link href={"/about"} className="link">
+              ABOUT
             </Link>
             <div className="contactt">
               <div className="">CONTACT</div>

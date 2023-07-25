@@ -107,8 +107,48 @@
         display: none;
       }
     }
+
     .sidebar {
-      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      width: 100%;
+      border: 1px solid var(--b-color);
+      z-index: 99999;
+      background-color: rgb(221, 221, 221);
+      transition: 0.3s ease;
+      .sidebar-links {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        .link {
+          border-bottom: 1px solid var(--b-color);
+          padding: 1rem 0;
+
+          &:first-of-type {
+            padding-top: 0;
+          }
+        }
+        .contactt {
+          padding-top: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+        .contact-link {
+          background-color: var(--c-dark);
+          color: var(--c-light);
+          border-radius: 4px;
+          padding: 0.5rem 1rem;
+          text-align: center;
+          transition: 0.2s ease;
+
+          &:hover {
+            background-color: rgba(14, 14, 14, 0.7);
+          }
+        }
+      }
     }
   }
 
@@ -125,46 +165,7 @@
         }
       }
       .sidebar {
-        position: absolute;
-        bottom: 0;
-        left: 0;
         display: flex;
-        width: 100%;
-        border: 1px solid var(--b-color);
-        transform: translateY(100%);
-        z-index: 99999;
-        background-color: rgb(221, 221, 221);
-        .sidebar-links {
-          display: flex;
-          flex-direction: column;
-          padding: 1.5rem;
-          .link {
-            border-bottom: 1px solid var(--b-color);
-            padding: 1rem 0;
-
-            &:first-of-type {
-              padding-top: 0;
-            }
-          }
-          .contactt {
-            padding-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-          }
-          .contact-link {
-            background-color: var(--c-dark);
-            color: var(--c-light);
-            border-radius: 4px;
-            padding: 0.5rem 1rem;
-            text-align: center;
-            transition: 0.2s ease;
-
-            &:hover {
-              background-color: rgba(14, 14, 14, 0.7);
-            }
-          }
-        }
       }
     }
   }
