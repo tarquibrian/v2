@@ -12,7 +12,7 @@ interface SingleProject {
   title: string;
   services: string[];
   button: string;
-  img?: React.ReactNode;
+  img: string;
 }
 
 const projectsData: Lang = {
@@ -23,8 +23,14 @@ const projectsData: Lang = {
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
+        img: "p1",
       },
-      { title: "asdf", services: ["hola", "hola"], button: "VIEW PROJECT" },
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
     ],
   },
   en: {
@@ -34,8 +40,14 @@ const projectsData: Lang = {
         title: "asdf",
         services: ["hola", "hola"],
         button: "VIEW PROJECT",
+        img: "p1",
       },
-      { title: "asdf", services: ["hola", "hola"], button: "VIEW PROJECT" },
+      {
+        title: "asdf",
+        services: ["hola", "hola"],
+        button: "VIEW PROJECT",
+        img: "p1",
+      },
     ],
   },
 };
