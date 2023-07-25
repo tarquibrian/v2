@@ -45,9 +45,10 @@ const Navbar = () => {
                 WORK
               </Link>
               <Link
-                href={"/"}
+                href={"/about"}
                 className={active === "about" ? "active" : ""}
-                onClick={() => setActive("services")}
+                onClick={() => setActive("about")}
+                
               >
                 ABOUT
               </Link>
