@@ -15,7 +15,7 @@ const HeroSingleWork = () => {
             and propels their business forward.
           </p>
         </div>
-        <LineY />
+        <LineY id="intern"/>
         <div className="herosinglework__section-details">
           <div className="details__content">
             <div className="label-title">CLIENT</div>

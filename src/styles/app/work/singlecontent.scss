@@ -44,5 +44,14 @@
         }
       }
     }
+
+    @media screen and (max-width: 1080px) {
+      gap: 3rem;
+      &-pictures {
+        .pictures__content {
+          aspect-ratio: unset;
+        }
+      }
+    }
   }
 }
