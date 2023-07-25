@@ -3,16 +3,16 @@ import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import imgtest from "../../../../public/img/brand.jpg";
+import imgtest from "../../../../../public/img/brand.jpg";
 
-const SupportService = () => {
+const ContentService = () => {
   return (
-    <Wrapper id="support">
+    <Wrapper id="content">
       <div className="wrapperservice__section">
         <div className="wrapperservice__section-info">
           <div className="title__content">
             <div className="logo">L</div>
-            <h2 className="">BRANDING</h2>
+            <h2>BRANDING</h2>
             <div className="">LOGO</div>
             <div className="">CORPORATE IDENTITY</div>
             <div className="">BRAND GUIDE</div>
@@ -49,4 +49,4 @@ const SupportService = () => {
   );
 };
 
-export default SupportService;
+export default ContentService;

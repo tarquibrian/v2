@@ -1,7 +1,7 @@
 import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
 import React from "react";
-import logotest from "../../../public/img/logotest.svg";
+import logotest from "../../../../public/img/logotest.svg";
 import Image from "next/image";
 
 const Services = () => {

@@ -1,7 +1,7 @@
 import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import React from "react";
-import logotest from "../../../public/img/logotest.svg";
+import logotest from "../../../../public/img/logotest.svg";
 import { LineX, LineY } from "@/utils/line";
 
 const Clients = () => {

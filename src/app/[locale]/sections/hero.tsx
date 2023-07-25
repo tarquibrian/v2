@@ -1,24 +1,24 @@
 import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import React from "react";
-import imgHero11 from "../../images/hero11.png";
-import imgHero12 from "../../images/hero12.png";
-import imgHero13 from "../../images/hero13.png";
-import imgHero14 from "../../images/hero14.png";
+import imgHero11 from "../../../images/hero11.png";
+import imgHero12 from "../../../images/hero12.png";
+import imgHero13 from "../../../images/hero13.png";
+import imgHero14 from "../../../images/hero14.png";
 
-import imgHero21 from "../../images/hero21.png";
-import imgHero22 from "../../images/hero22.png";
-import imgHero23 from "../../images/hero23.png";
+import imgHero21 from "../../../images/hero21.png";
+import imgHero22 from "../../../images/hero22.png";
+import imgHero23 from "../../../images/hero23.png";
 
-import imgHero31 from "../../images/hero31.png";
-import imgHero32 from "../../images/hero32.png";
-import imgHero33 from "../../images/hero33.png";
-import imgHero34 from "../../images/hero34.png";
+import imgHero31 from "../../../images/hero31.png";
+import imgHero32 from "../../../images/hero32.png";
+import imgHero33 from "../../../images/hero33.png";
+import imgHero34 from "../../../images/hero34.png";
 
-import imgHero41 from "../../images/hero41.png";
-import imgHero42 from "../../images/hero42.png";
+import imgHero41 from "../../../images/hero41.png";
+import imgHero42 from "../../../images/hero42.png";
 
-import logotest from "../../../public/img/logotest.svg";
+import logotest from "../../../../public/img/logotest.svg";
 
 const Hero = () => {
   return (

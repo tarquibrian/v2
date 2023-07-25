@@ -3,7 +3,7 @@ import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import imgtest from "../../../public/img/brand.jpg";
+import imgtest from "../../../../public/img/brand.jpg";
 
 const Projects = () => {
   return (

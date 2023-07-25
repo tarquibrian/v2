@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logo from "../../../public/img/darvy-icon.png";
+import logo from "../../../../public/img/darvy-icon.png";
 import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
 import { usePathname } from "next/navigation";
@@ -40,12 +40,12 @@ const Navbar = () => {
           <LineY id="lineone" />
           <div className="main__socials">
             <div className="main__socials-icons">
-              <div className="en">
+              <Link href={"/"} locale="en" className="en">
                 <span>EN</span>
-              </div>
-              <div className="es">
+              </Link>
+              <Link href={"/"} locale="es" className="es">
                 <span>ES</span>
-              </div>
+              </Link>
               {/* <div className="dribbble icon">
                 <DribbbleIcon />
               </div>
