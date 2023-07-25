@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="main__menu">
             <nav>
               <Link href={"/services"}>SERVICES</Link>
-              <Link href={"/"}>WORK</Link>
+              <Link href={"/work"}>WORK</Link>
               <Link href={"/"}>ABOUT</Link>
             </nav>
             <Link href={"/"} className="main__menu-contact">

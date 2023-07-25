@@ -4,6 +4,7 @@ import BrandingServices from "./sections/brandingServices";
 import DesignService from "./sections/design";
 import ContentService from "./sections/contentService";
 import SupportService from "./sections/supportService";
+import Contact from "../sections/contact";
 
 const ServicesPage = () => {
   return (
@@ -13,6 +14,7 @@ const ServicesPage = () => {
       <DesignService />
       <ContentService />
       <SupportService />
+      <Contact />
     </main>
   );
 };
