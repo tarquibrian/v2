@@ -11,7 +11,7 @@ const WorkList = () => {
     <Wrapper id="worklist">
       {projectsData.en.projects.map((project) => {
         return (
-          <Wrapper id="project" key={project.title} type="div">
+          <Wrapper id="project" key={project.id} type="div">
             <div className="project__content">
               <div className="project__content-title">
                 <div className="title__content">
@@ -25,7 +25,7 @@ const WorkList = () => {
                   </div>
                 </div>
 
-                <Link href={`/${project.title}`}>{project.button}</Link>
+                <Link href={`/work/${project.id}`}>{project.button}</Link>
               </div>
               <div className="project__content-picture">
                 <div className="picture__content">
