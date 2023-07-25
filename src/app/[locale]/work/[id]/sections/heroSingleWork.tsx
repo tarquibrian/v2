@@ -34,6 +34,7 @@ const HeroSingleWork = () => {
             <div className="label-desc link-group">
               <Link href={"/services"}>DESIGN</Link>
               <Link href={"/services"}>DESIGN</Link>
+              <Link href={"/services"}>DESIGN</Link>
             </div>
           </div>
           <div className="details__content">
