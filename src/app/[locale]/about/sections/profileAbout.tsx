@@ -5,6 +5,7 @@ import Image from "next/image";
 import { LineY } from "@/utils/line";
 
 const ProfileAbout = () => {
+  console.log(process.env.API_URL);
   return (
     <Wrapper id="profileabout">
       <div className="profileabout__section">
@@ -25,7 +26,11 @@ const ProfileAbout = () => {
             </p>
           </div>
           <div className="info__resume">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a
+              href={process.env.API_URL + "/resumeV1en.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GET RESUME
             </a>
           </div>
