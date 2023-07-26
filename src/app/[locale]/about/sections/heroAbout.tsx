@@ -9,10 +9,10 @@ const HeroAbout = () => {
           <h1 className="title-header">BRIAN TARQUI ROJAS</h1>
         </div>
         <div className="heroabout__section-features">
-          <div className="feature">FEATURE</div>
-          <div className="feature">FEATURE</div>
-          <div className="feature">FEATURE</div>
-          <div className="feature">FEATURE</div>
+          <div className="feature">DIGITAL FRELANCER</div>
+          <div className="feature">WEB DESIGNER</div>
+          <div className="feature">WEB DEVELOPER</div>
+          <div className="feature">SYSTEM ENGINEER</div>
         </div>
       </div>
     </Wrapper>
