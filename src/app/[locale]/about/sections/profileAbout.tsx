@@ -2,6 +2,7 @@ import Wrapper from "@/utils/wrapper";
 import React from "react";
 import imgtest from "../../../../../public/img/brand.jpg";
 import Image from "next/image";
+import { LineY } from "@/utils/line";
 
 const ProfileAbout = () => {
   return (
@@ -12,9 +13,11 @@ const ProfileAbout = () => {
             <Image src={imgtest} alt="about profile picture" />
           </div>
         </div>
+        <LineY id="intern" />
         <div className="profileabout__section-info">
           <div className="info__content">
-            <p>
+            <h2 className="title-md">ABOUT ME</h2>
+            <p className="desc-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               numquam illum ratione, odit nostrum quam, architecto minima
               cupiditate aperiam reprehenderit placeat suscipit sequi? Quos

@@ -1,4 +1,5 @@
-#heroservices, #herowork {
+#heroservices,
+#herowork {
   .heropage__section {
     display: flex;
     gap: 4rem;
@@ -9,6 +10,12 @@
 
     &-title {
       max-width: 850px;
+      .title-sm {
+        font-weight: 600;
+      }
+      h1 {
+        margin-top: 1rem;
+      }
     }
 
     &-subnav {
@@ -27,7 +34,7 @@
           color: var(--c-light);
         }
       }
-    }  
+    }
     @media screen and (max-width: 768px) {
       padding: 0;
       min-height: 350px;

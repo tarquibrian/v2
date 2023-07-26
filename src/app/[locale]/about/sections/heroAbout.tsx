@@ -6,7 +6,8 @@ const HeroAbout = () => {
     <Wrapper id="heroabout">
       <div className="heroabout__section">
         <div className="heroabout__section-title">
-          <h1 className="title-header">BRIAN TARQUI ROJAS</h1>
+          <div className="title-sm">ABOUT ME</div>
+          <h1 className="title-header">N</h1>
         </div>
         <div className="heroabout__section-features">
           <div className="feature">DIGITAL FRELANCER</div>

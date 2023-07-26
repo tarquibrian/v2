@@ -34,6 +34,12 @@ const Navbar = () => {
           <div className="main__menu">
             <nav>
               <Link
+                href={"/"}
+                className={pathname.split("/")[1] === "" ? "active" : ""}
+              >
+                HOME
+              </Link>
+              <Link
                 href={"/services"}
                 className={
                   pathname.split("/")[1] === "services" ? "active" : ""
@@ -108,6 +114,9 @@ const Navbar = () => {
           }}
         >
           <div className="sidebar-links">
+            <Link href={"/"} className="link">
+              HOME
+            </Link>
             <Link href={"/services"} className="link">
               SERVICES
             </Link>

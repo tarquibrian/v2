@@ -26,7 +26,7 @@ const Values = () => {
                     <span>01</span>
                   </div>
                   <div className="info">
-                    <h3 className="title-lg">USER-CENTRIC</h3>
+                    <h3 className="title-md">USER-CENTRIC</h3>
                     <p className="desc-sm">
                       Our relentless pursuit of a shared vision fuels our
                       creativity and propels us forward. With clarity and
@@ -43,7 +43,7 @@ const Values = () => {
                     <span>02</span>
                   </div>
                   <div className="info">
-                    <h3 className="title-lg">INNOVATION</h3>
+                    <h3 className="title-md">INNOVATION</h3>
                     <p className="desc-sm">
                       Our relentless pursuit of a shared vision fuels our
                       creativity and propels us forward. With clarity and
@@ -60,7 +60,7 @@ const Values = () => {
                     <span>03</span>
                   </div>
                   <div className="info">
-                    <h3 className="title-lg">QUALITY</h3>
+                    <h3 className="title-md">QUALITY</h3>
                     <p className="desc-sm">
                       Our relentless pursuit of a shared vision fuels our
                       creativity and propels us forward. With clarity and
