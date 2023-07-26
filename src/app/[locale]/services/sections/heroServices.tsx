@@ -10,10 +10,18 @@ const HeroServices = () => {
           <h1 className="title-header">We create your brand together.</h1>
         </div>
         <div className="heropage__section-subnav">
-          <a href="#branding">BRANDING</a>
-          <a href="#design">DESIGN</a>
-          <a href="#content">CONTENT</a>
-          <a href="#support">SUPPORT</a>
+          <a href="#branding">
+            <span>BRANDING</span>
+          </a>
+          <a href="#design">
+            <span>DESIGN</span>
+          </a>
+          <a href="#content">
+            <span>CONTENT</span>
+          </a>
+          <a href="#support">
+            <span>SUPPORT</span>
+          </a>
         </div>
       </div>
     </Wrapper>

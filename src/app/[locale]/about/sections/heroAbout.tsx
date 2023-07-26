@@ -7,7 +7,9 @@ const HeroAbout = () => {
       <div className="heroabout__section">
         <div className="heroabout__section-title">
           <div className="title-sm">ABOUT ME</div>
-          <h1 className="title-header">N</h1>
+          <h1 className="title-header">
+            Digital freelance <br /> that inspires.
+          </h1>
         </div>
         <div className="heroabout__section-features">
           <div className="feature">DIGITAL FRELANCER</div>
