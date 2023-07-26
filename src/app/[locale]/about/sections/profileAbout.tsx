@@ -24,6 +24,11 @@ const ProfileAbout = () => {
               molestiae, optio molestias maxime et quidem!
             </p>
           </div>
+          <div className="info__resume">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              GET RESUME
+            </a>
+          </div>
         </div>
       </div>
     </Wrapper>

@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 0.89fr 1px 2fr;
     gap: 4rem;
+    padding: 1rem 0;
 
     &-picture {
       .picture__content {
@@ -21,8 +22,26 @@
     }
 
     &-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       h2 {
         margin-bottom: 1rem;
+      }
+      .info__resume {
+        display: flex;
+        a {
+          background-color: var(--c-dark);
+          padding: 0.5rem 1rem;
+          color: var(--c-light);
+          border-radius: 4px;
+          transition: 0.2s ease;
+          letter-spacing: 1px;
+
+          &:hover {
+            background-color: var(--c-dark-hover);
+          }
+        }
       }
     }
   }
