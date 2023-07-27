@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import imgtext from "../../../../../public/img/brand.jpg";
 import Image from "next/image";
+import BrandingIcon from "../../components/icons/branding";
 
 const BrandingServices = () => {
   return (
@@ -11,7 +12,9 @@ const BrandingServices = () => {
       <div className="wrapperservice__section">
         <div className="wrapperservice__section-info">
           <div className="title__content">
-            <div className="logo">L</div>
+            <div className="logo">
+              <BrandingIcon />
+            </div>
             <h2>BRANDING</h2>
             <div className="">LOGO</div>
             <div className="">CORPORATE IDENTITY</div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import imgtest from "../../../../../public/img/brand.jpg";
+import DesignIcon from "../../components/icons/design";
 
 const DesignService = () => {
   return (
@@ -11,8 +12,10 @@ const DesignService = () => {
       <div className="wrapperservice__section">
         <div className="wrapperservice__section-info">
           <div className="title__content">
-            <div className="logo">L</div>
-            <h2>BRANDING</h2>
+            <div className="logo">
+              <DesignIcon />
+            </div>
+            <h2>DESIGN</h2>
             <div className="">LOGO</div>
             <div className="">CORPORATE IDENTITY</div>
             <div className="">BRAND GUIDE</div>
