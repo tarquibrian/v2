@@ -30,6 +30,14 @@ body {
   font-family: var(--ff-manrope);
 }
 
+// canvas {
+//   position: absolute;
+//   inset: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   z-index: -9;
+// }
+
 p {
   line-height: 1.5;
 }
@@ -77,7 +85,7 @@ button {
 }
 
 .title-header {
-  font-size: clamp(3rem, 6vw, 6rem);
+  font-size: clamp(3rem, 6vw, 5rem);
   font-family: "Adam";
 }
 
@@ -96,8 +104,6 @@ button {
   font-family: var(--ff-adam);
   font-size: clamp(32px, 4vw, 48px);
 }
-
-
 
 .desc-sm {
   font-size: clamp(14px, 2vw, 18px);
