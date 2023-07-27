@@ -60,8 +60,6 @@ const Effect = () => {
   }, [bloom, final, size]);
 
   useFrame(() => {
-    // https://github.com/mrdoob/three.js/blob/master/examples/webgl_postprocessing_unreal_bloom_selective.html
-    // this seems kinda dirty, it mutates the scene and overwrites materials
     // scene.traverse(darkenNonBloomed);
     bloom.render();
     // scene.traverse(restoreMaterial);
