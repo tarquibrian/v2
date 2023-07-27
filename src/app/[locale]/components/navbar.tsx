@@ -6,6 +6,7 @@ import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
 import { usePathname } from "next/navigation";
 import Link from "next-intl/link";
+import LogoIcon from "./icons/logo";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
     <header id="navbar">
       <div className="navbar-padding">
         <div className="logo">
-          <Image src={logo} alt="logo icon" width={50} height={50} />
+          <LogoIcon />
         </div>
         <div className="navbar-content-main">
           <div className="main__menu">

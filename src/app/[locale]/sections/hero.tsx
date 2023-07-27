@@ -37,7 +37,24 @@ const Hero = () => {
             </p>
           </div>
           <div className="main-logo">
-            <Image src={logotest} alt="logo test" />
+            {/* <Image src={logotest} alt="logo test" /> */}
+            <svg
+              width="69"
+              height="94"
+              viewBox="0 0 69 94"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M30.0421 51.0297H1L30.0421 92V51.0297Z" fill="black" />
+              <path
+                d="M38.881 42.9703H67.9231L38.881 2V42.9703Z"
+                fill="black"
+              />
+              <path
+                d="M10.8077 42.9703H1L30.0421 2V15.8359M10.8077 42.9703H30.0421V30.4857M10.8077 42.9703L30.0421 15.8359M30.0421 15.8359V30.4857M21.1923 42.9703L30.0421 30.4857M47.7308 51.0297H38.881V63.7308M47.7308 51.0297L38.881 63.7308M47.7308 51.0297H57.8269M38.881 63.7308V78.1538M57.8269 51.0297H67.9231L38.881 92V78.1538M57.8269 51.0297L38.881 78.1538M1 51.0297H30.0421V92L1 51.0297ZM67.9231 42.9703L38.881 2V42.9703H67.9231Z"
+                stroke="black"
+              />
+            </svg>
           </div>
         </div>
         <div className="hero__section-picture">
