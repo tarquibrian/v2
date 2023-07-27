@@ -3,6 +3,9 @@ import Wrapper from "@/utils/wrapper";
 import React from "react";
 import logotest from "../../../../public/img/logotest.svg";
 import Image from "next/image";
+import BrandingIcon from "../components/icons/branding";
+import DesignIcon from "../components/icons/design";
+import ContentIcon from "../components/icons/content";
 
 const Services = () => {
   return (
@@ -18,19 +21,7 @@ const Services = () => {
               <Wrapper id="item" type="div">
                 <div className="grid__content-group">
                   <div className="logo">
-                    {/* <Image src={logotest} alt="logotest groupt" /> */}
-                    <svg
-                      width="80"
-                      height="80"
-                      viewBox="0 0 80 80"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M59.5 20.5V79.5H0.5V20.5H59.5ZM10.5 69.5V10.5H69.5V69.5H10.5ZM20.5 59.5V0.5H79.5V59.5H20.5Z"
-                        stroke="black"
-                      />
-                    </svg>
+                    <BrandingIcon />
                   </div>
                   <div className="content">
                     <h3 className="title-md">BRANDING</h3>
@@ -66,26 +57,7 @@ const Services = () => {
                         stroke="black"
                       />
                     </svg> */}
-                    <svg
-                      width="81"
-                      height="81"
-                      viewBox="0 0 81 81"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0.5 80.5V21.5C30 31 50 51 59.5 80.5H0.5Z"
-                        stroke="black"
-                      />
-                      <path
-                        d="M10.5 70.5V11.5C40 21 60 41 69.5 70.5H10.5Z"
-                        stroke="black"
-                      />
-                      <path
-                        d="M20.5 60.5V1.5C50 11 70 31 79.5 60.5H20.5Z"
-                        stroke="black"
-                      />
-                    </svg>
+                    <DesignIcon />
                   </div>
                   <div className="content">
                     <h3 className="title-md">DESIGN</h3>
@@ -103,17 +75,7 @@ const Services = () => {
               <Wrapper id="item" type="div">
                 <div className="grid__content-group">
                   <div className="logo">
-                    <svg
-                      width="80"
-                      height="80"
-                      viewBox="0 0 80 80"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle cx="30" cy="50" r="29.5" stroke="black" />
-                      <circle cx="40" cy="40" r="29.5" stroke="black" />
-                      <circle cx="50" cy="30" r="29.5" stroke="black" />
-                    </svg>
+                    <ContentIcon />
                   </div>
                   <div className="content">
                     <h3 className="title-md">CONTENT</h3>
