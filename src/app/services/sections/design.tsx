@@ -3,19 +3,19 @@ import Wrapper from "@/utils/wrapper";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import imgtest from "../../../../../public/img/brand.jpg";
-import ContentIcon from "../../components/icons/content";
+import imgtest from "../../../../public/img/brand.jpg";
+import DesignIcon from "../../components/icons/design";
 
-const ContentService = () => {
+const DesignService = () => {
   return (
-    <Wrapper id="content">
+    <Wrapper id="design">
       <div className="wrapperservice__section">
         <div className="wrapperservice__section-info">
           <div className="title__content">
             <div className="logo">
-              <ContentIcon />
+              <DesignIcon />
             </div>
-            <h2>CONTENT</h2>
+            <h2>DESIGN</h2>
             <div className="">LOGO</div>
             <div className="">CORPORATE IDENTITY</div>
             <div className="">BRAND GUIDE</div>
@@ -33,14 +33,22 @@ const ContentService = () => {
               A strong brand serves as a powerful conduit, transcending borders
               and bringing people from all corners of the globe together. It
               acts as a universal language, fostering connections, and forging
-              lasting relationships. By crafting a compelling brand identity, we
-              equip you with the tools to resonate with diverse audiences,
-              irrespective of geographical boundaries. Our strategic approach
-              ensures that your brand story is authentically communicated,
-              captivating hearts and minds across cultures. Let us guide you in
-              harnessing the true potential of your brand, bridging gaps, and
-              leaving an indelible mark on a global scale. Together, we can
-              connect the world to your brand's unique essence.
+              lasting relationships.
+            </p>
+            <p>
+              By crafting a compelling brand identity, we equip you with the
+              tools to resonate with diverse audiences, irrespective of
+              geographical boundaries.
+            </p>
+            <p>
+              Our strategic approach ensures that your brand story is
+              authentically communicated, captivating hearts and minds across
+              cultures.
+            </p>
+            <p>
+              Let us guide you in harnessing the true potential of your brand,
+              bridging gaps, and leaving an indelible mark on a global scale.
+              Together, we can connect the world to your brand's unique essence.
             </p>
           </div>
           <div className="desc__picture">
@@ -52,4 +60,4 @@ const ContentService = () => {
   );
 };
 
-export default ContentService;
+export default DesignService;

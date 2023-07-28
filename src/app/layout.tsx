@@ -1,10 +1,8 @@
 import ThreeCanvas from "@/threejs/canvas";
-import "../../styles/globals.scss";
+import "../styles/globals.scss";
 import type { Metadata } from "next";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import { useLocale } from "next-intl";
-import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",

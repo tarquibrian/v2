@@ -1,8 +1,6 @@
 import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
 import React from "react";
-import logotest from "../../../../public/img/logotest.svg";
-import Image from "next/image";
 import BrandingIcon from "../components/icons/branding";
 import DesignIcon from "../components/icons/design";
 import ContentIcon from "../components/icons/content";

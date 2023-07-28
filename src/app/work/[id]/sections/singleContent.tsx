@@ -1,7 +1,7 @@
 import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
 import React from "react";
-import imgtest from "../../../../../../public/img/brand.jpg";
+import imgtest from "../../../../../public/img/brand.jpg";
 import Image from "next/image";
 
 const SingleContent = () => {

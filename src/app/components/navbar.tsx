@@ -5,8 +5,8 @@ import logo from "../../../../public/img/darvy-icon.png";
 import { motion, useAnimation } from "framer-motion";
 import { LineY } from "@/utils/line";
 import { usePathname } from "next/navigation";
-import Link from "next-intl/link";
 import LogoIcon from "./icons/logo";
+import Link from "next/link";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
