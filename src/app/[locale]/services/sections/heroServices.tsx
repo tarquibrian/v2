@@ -7,7 +7,9 @@ const HeroServices = () => {
       <div className="heropage__section">
         <div className="heropage__section-title">
           <div className="title-sm"> MY SERVICES</div>
-          <h1 className="title-header">We create your brand together.</h1>
+          <h1 className="title-header">
+            Discover tailored web solutions for impactful online growth.
+          </h1>
         </div>
         <div className="heropage__section-subnav">
           <div className="subnav__icon">
