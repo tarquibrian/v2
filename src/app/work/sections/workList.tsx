@@ -2,7 +2,7 @@ import Wrapper from "@/utils/wrapper";
 import React from "react";
 import { projectsData } from "@/data/workData";
 import Link from "next/link";
-import img from "../../../../../public/img/brand.jpg";
+import img from "../../../../public/img/brand.jpg";
 import Image from "next/image";
 
 const WorkList = () => {
