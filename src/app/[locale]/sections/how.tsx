@@ -10,16 +10,18 @@ const How = () => {
         <div className="how__section-title">
           <div className="title__content">
             <span className="title-sm">HOW I WORK</span>
-            <h2 className="title-header">We help our clients succeed with innovative strategies.</h2>
+            <h2 className="title-header">
+              Result-driven web strategies that yield positive outcomes.
+            </h2>
           </div>
           <div className="title__logo">L</div>
         </div>
-        <LineY id="inter"/>
+        <LineY id="inter" />
         <div className="how__section-desc">
           <p className="desc-lg">
-            Through careful analysis, creative thinking, and a deep
-            understanding of their goals, we empower businesses to surpass
-            expectations and thrive in today's dynamic and competitive
+            With meticulous analysis, creative expertise, and a profound
+            understanding of your goals, my web services empower businesses to
+            exceed expectations and thrive in the dynamic, competitive digital
             landscape.
           </p>
           <Link href={"/"}>OUR SERVICES</Link>

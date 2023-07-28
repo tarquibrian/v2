@@ -13,13 +13,13 @@ const Projects = () => {
           <div className="title__content">
             <h2 className="title-lg">FEATURED WORK</h2>
             <p className="desc-md">
-              Showcasing our standout projects that blend creativity, strategy,
-              and cutting-edge design.
+              I present to you some outstanding projects that combine
+              creativity, strategy and cutting-edge design.
             </p>
             <Link href={"/"}>SEE ALL WORK</Link>
           </div>
         </div>
-        <LineY id="intern"/>
+        <LineY id="intern" />
         <div className="projects__section-grid">
           <Wrapper id="picture" type="div">
             <div className="picture__content">

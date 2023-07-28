@@ -27,7 +27,7 @@ const Services = () => {
                   <div className="content">
                     <h3 className="title-md">BRANDING</h3>
                     <p>
-                      We craft compelling brand identities that leave a lasting
+                      Get a compelling brand identity that leaves a lasting
                       impression.
                     </p>
                   </div>
@@ -63,8 +63,8 @@ const Services = () => {
                   <div className="content">
                     <h3 className="title-md">DESIGN</h3>
                     <p>
-                      We craft compelling brand identities that leave a lasting
-                      impression.
+                      Bringing your ideas to life with innovative and aesthetic
+                      designs.
                     </p>
                   </div>
                 </div>
@@ -81,8 +81,8 @@ const Services = () => {
                   <div className="content">
                     <h3 className="title-md">CONTENT</h3>
                     <p>
-                      We craft compelling brand identities that leave a lasting
-                      impression.
+                      Engaging content that captivates attention and sparks
+                      genuine connections.
                     </p>
                   </div>
                 </div>
@@ -97,8 +97,8 @@ const Services = () => {
                   <div className="content">
                     <h3 className="title-md">SUPPORT</h3>
                     <p>
-                      We craft compelling brand identities that leave a lasting
-                      impression.
+                      Overcome limitations and elevate your brand with dedicated
+                      support.
                     </p>
                   </div>
                 </div>

@@ -10,15 +10,18 @@ const Contact = () => {
         <div className="contact__section-title">
           <div className="title__content">
             <span className="title-sm">CONTACT</span>
-            <h2 className="title-header">LET'S BRING YOUR BRAND TO THE NEXT LEVEL</h2>
+            <h2 className="title-header">
+              Ready to dream above the competition? My web services will get you
+              there.
+            </h2>
           </div>
           <div className="title__logo">L</div>
         </div>
-        <LineY id="intern"/>
+        <LineY id="intern" />
         <div className="contact__section-desc">
           <p className="desc-lg">
-            Together, let's elevate your brand to new heights by unleashing its
-            full potential and captivating your target audience.
+            Collaboratively, we'll elevate your brand to new heights, unlocking
+            its full potential and captivating your target audience.
           </p>
           <Link href={"/"}>CONTACT</Link>
         </div>

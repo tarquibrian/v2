@@ -28,11 +28,11 @@ const Values = () => {
                   <div className="info">
                     <h3 className="title-md">USER-CENTRIC</h3>
                     <p className="desc-sm">
-                      Our relentless pursuit of a shared vision fuels our
-                      creativity and propels us forward. With clarity and
-                      foresight, we craft strategies that align with our
-                      clients' goals and aspirations, transforming their dreams
-                      into reality and shaping a future worth embracing.
+                      From designing intuitive interfaces to optimizing
+                      performance, every step in the process aims to improve
+                      user satisfaction and deliver an exceptional experience. I
+                      believe that a positive user experience is essential to
+                      the success of any website or application.
                     </p>
                   </div>
                 </div>
@@ -45,11 +45,11 @@ const Values = () => {
                   <div className="info">
                     <h3 className="title-md">INNOVATION</h3>
                     <p className="desc-sm">
-                      Our relentless pursuit of a shared vision fuels our
-                      creativity and propels us forward. With clarity and
-                      foresight, we craft strategies that align with our
-                      clients' goals and aspirations, transforming their dreams
-                      into reality and shaping a future worth embracing.
+                      At the forefront of technological trends, transcending the
+                      ordinary with innovative web solutions, opening up new
+                      opportunities for my clients. I believe in challenging the
+                      established and constantly looking for more creative and
+                      efficient ways to face challenges.
                     </p>
                   </div>
                 </div>
@@ -62,11 +62,11 @@ const Values = () => {
                   <div className="info">
                     <h3 className="title-md">QUALITY</h3>
                     <p className="desc-sm">
-                      Our relentless pursuit of a shared vision fuels our
-                      creativity and propels us forward. With clarity and
-                      foresight, we craft strategies that align with our
-                      clients' goals and aspirations, transforming their dreams
-                      into reality and shaping a future worth embracing.
+                      Exceed expectations with excellence in quality. My
+                      commitment is to offer superior products and services.
+                      Through rigorous control processes and meticulous
+                      attention to detail, each project is carried out to the
+                      highest standards.
                     </p>
                   </div>
                 </div>
