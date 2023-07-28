@@ -27,7 +27,8 @@ const Hero = () => {
         <div className="hero__section-main">
           <div className="main__content">
             <h1 className="title-header">
-              Elevate your brand level with one-of-a-kind web creations.
+              Elevate your brand level with <span>one-of-a-kind</span> web
+              creations.
               {/* Building user-centric and intuitive web interfaces. */}
             </h1>
             <p className="desc-lg">
