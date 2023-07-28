@@ -24,7 +24,11 @@ const Projects = () => {
           <Wrapper id="picture" type="div">
             <div className="picture__content">
               <Link href={"/"}>
-                <Image src={imgtest} alt="img test picture" />
+                <Image
+                  src={imgtest}
+                  alt="img test picture"
+                  placeholder="blur"
+                />
               </Link>
             </div>
             <div className="picture__title">
@@ -38,7 +42,11 @@ const Projects = () => {
                 <div className="group__picture">
                   <div className="img">
                     <Link href={"/"}>
-                      <Image src={imgtest} alt="img test picture" />
+                      <Image
+                        src={imgtest}
+                        alt="img test picture"
+                        placeholder="blur"
+                      />
                     </Link>
                   </div>
                   <div className="title">
@@ -52,7 +60,11 @@ const Projects = () => {
                 <div className="group__picture">
                   <div className="img">
                     <Link href={"/"}>
-                      <Image src={imgtest} alt="img test picture" />
+                      <Image
+                        src={imgtest}
+                        alt="img test picture"
+                        placeholder="blur"
+                      />
                     </Link>
                   </div>
                   <div className="title">
@@ -67,7 +79,11 @@ const Projects = () => {
                 <div className="group__picture">
                   <div className="img">
                     <Link href={"/"}>
-                      <Image src={imgtest} alt="img test picture" />
+                      <Image
+                        src={imgtest}
+                        alt="img test picture"
+                        placeholder="blur"
+                      />
                     </Link>
                   </div>
                   <div className="title">
@@ -82,7 +98,11 @@ const Projects = () => {
                 <div className="group__picture">
                   <div className="img">
                     <Link href={"/"}>
-                      <Image src={imgtest} alt="img test picture" />
+                      <Image
+                        src={imgtest}
+                        alt="img test picture"
+                        placeholder="blur"
+                      />
                     </Link>
                   </div>
                   <div className="title">
