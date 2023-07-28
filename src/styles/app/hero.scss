@@ -11,20 +11,15 @@
       justify-content: space-between;
       flex-direction: column;
       gap: 2rem;
-      // column-gap: 4rem;
       .main__content {
         h1 {
           margin-bottom: 1rem;
           span {
-            // font-weight: 200;
-            // font-style: italic;
-            // color: rgb(255, 255, 255);
-            color: #83c5be;
+            color: transparent;
             -webkit-text-stroke: 1px black;
           }
         }
         p {
-          // font-size: clamp(16px, 2vw, 22px);
           max-width: 700px;
         }
       }
