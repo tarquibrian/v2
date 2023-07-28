@@ -1,10 +1,9 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const LineX = () => {
-  const ref = useRef();
   const [refView, inView] = useInView();
   const controls = useAnimation();
 
