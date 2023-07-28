@@ -16,7 +16,7 @@ const Values = () => {
         <Wrapper id="values__section-content" type="div">
           <div className="content__values">
             <div className="content__values-picture">
-              <Image src={imgtest} alt="imgtest picture" />
+              <Image src={imgtest} alt="imgtest picture" placeholder="blur" />
             </div>
             <LineY />
             <div className="content__values-grid">
