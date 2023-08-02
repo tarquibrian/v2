@@ -28,9 +28,9 @@ const Navbar = () => {
   return (
     <header id="navbar">
       <div className="navbar-padding">
-        <div className="logo">
+        <Link href={"/"} className="logo">
           <LogoIcon />
-        </div>
+        </Link>
         <div className="navbar-content-main">
           <div className="main__menu">
             <nav>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 href={"/"}
                 className={pathname.split("/")[1] === "" ? "active" : ""}
               >
-                HOME
+                <div className="text">HOME</div>
               </Link>
               <Link
                 href={"/services"}
@@ -46,19 +46,19 @@ const Navbar = () => {
                   pathname.split("/")[1] === "services" ? "active" : ""
                 }
               >
-                SERVICES
+                <div className="text">SERVICES</div>
               </Link>
               <Link
                 href={"/work"}
                 className={pathname.split("/")[1] === "work" ? "active" : ""}
               >
-                WORK
+                <div className="text">WORK</div>
               </Link>
               <Link
                 href={"/about"}
                 className={pathname.split("/")[1] === "about" ? "active" : ""}
               >
-                ABOUT
+                <div className="text">ABOUT</div>
               </Link>
             </nav>
             <Link href={"/"} className="main__menu-contact">
