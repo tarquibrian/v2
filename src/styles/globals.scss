@@ -38,6 +38,11 @@ body {
 //   z-index: -9;
 // }
 
+input {
+  all: unset;
+  box-sizing: border-box;
+}
+
 p {
   line-height: 1.5;
 }

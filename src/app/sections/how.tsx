@@ -2,6 +2,8 @@ import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
 import Link from "next/link";
 import React from "react";
+import LogoIcon from "../components/icons/logo";
+import OneIcon from "../components/icons/icon1";
 
 const How = () => {
   return (
@@ -14,7 +16,9 @@ const How = () => {
               Result-driven web strategies that yield positive outcomes.
             </h2>
           </div>
-          <div className="title__logo">L</div>
+          <div className="title__logo">
+            <OneIcon />
+          </div>
         </div>
         <LineY id="inter" />
         <div className="how__section-desc">

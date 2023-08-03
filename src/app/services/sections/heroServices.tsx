@@ -6,7 +6,7 @@ const HeroServices = () => {
     <Wrapper id="heroservices">
       <div className="heropage__section">
         <div className="heropage__section-title">
-          <div className="title-sm"> MY SERVICES</div>
+          <div className="title-sm">MY SERVICES</div>
           <h1 className="title-header">
             Discover tailored web solutions for impactful online growth.
           </h1>

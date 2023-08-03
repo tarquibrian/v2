@@ -1,0 +1,105 @@
+#herocontact {
+  .herocontact__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // min-height: 400px;
+    gap: 4rem;
+
+    &-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2rem;
+      .title-sm {
+        font-weight: bold;
+      }
+      h3 {
+        margin-top: 1rem;
+      }
+
+      .title__socials {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        span {
+          font-size: 18px;
+        }
+        .socials__content {
+          display: flex;
+          gap: 0.5rem;
+          a {
+            display: flex;
+            svg {
+              width: 30px;
+              height: auto;
+              stroke-width: 1.5;
+            }
+          }
+        }
+      }
+    }
+
+    &-form {
+      padding: 4rem 0;
+
+      .form__content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 600px;
+        margin-inline: auto;
+
+        .form__row {
+          input,
+          textarea {
+            resize: none;
+            width: 100%;
+            padding: 1rem;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            color: black;
+            font-size: clamp(1rem, 2vw, 18px);
+            transition: 0.2s ease;
+
+            &:focus {
+              background-color: rgba(1, 1, 1, 0.1);
+            }
+
+            &::placeholder {
+              color: var(--c-dark);
+              font-size: clamp(1rem, 2vw, 18px);
+              font-family: "Manrope";
+            }
+          }
+
+          textarea {
+            min-height: 150px;
+          }
+
+          span {
+            background-color: var(--c-dark);
+            color: white;
+            padding: 0.5rem 0.8rem;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            transition: 0.2s ease;
+            &:hover {
+              background-color: rgba(14, 14, 14, 0.7);
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      gap: 2rem;
+      grid-template-columns: 1fr;
+
+      &-form {
+        padding: 0;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

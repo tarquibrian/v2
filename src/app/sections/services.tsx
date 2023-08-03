@@ -25,7 +25,7 @@ const Services = () => {
                   </div>
                   <div className="content">
                     <h3 className="title-md">
-                      <Link href={"/services"}>BRANDING</Link>
+                      <Link href={"/services#branding"}>BRANDING</Link>
                     </h3>
                     <p>
                       Get a compelling brand identity that leaves a lasting
@@ -43,7 +43,7 @@ const Services = () => {
                   </div>
                   <div className="content">
                     <h3 className="title-md">
-                      <Link href={"/services"}>DESIGN</Link>
+                      <Link href={"/services#design"}>DESIGN</Link>
                     </h3>
                     <p>
                       Bringing your ideas to life with innovative and aesthetic
@@ -63,7 +63,7 @@ const Services = () => {
                   </div>
                   <div className="content">
                     <h3 className="title-md">
-                      <Link href={"/services"}>CONTENT</Link>
+                      <Link href={"/services#content"}>CONTENT</Link>
                     </h3>
                     <p>
                       Engaging content that captivates attention and sparks
@@ -81,7 +81,7 @@ const Services = () => {
                   </div>
                   <div className="content">
                     <h3 className="title-md">
-                      <Link href={"/services"}>SUPPORT</Link>
+                      <Link href={"/services#support"}>SUPPORT</Link>
                     </h3>
                     <p>
                       Overcome limitations and elevate your brand with dedicated

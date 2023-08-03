@@ -61,7 +61,7 @@ const Navbar = () => {
                 <div className="text">ABOUT</div>
               </Link>
             </nav>
-            <Link href={"/"} className="main__menu-contact">
+            <Link href={"/contact"} className="main__menu-contact">
               LET'S TALK
             </Link>
           </div>

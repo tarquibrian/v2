@@ -2,6 +2,7 @@ import { LineY } from "@/utils/line";
 import Wrapper from "@/utils/wrapper";
 import Link from "next/link";
 import React from "react";
+import OneIcon from "../components/icons/icon1";
 
 const Contact = () => {
   return (
@@ -15,7 +16,9 @@ const Contact = () => {
               there.
             </h2>
           </div>
-          <div className="title__logo">L</div>
+          <div className="title__logo">
+            <OneIcon />
+          </div>
         </div>
         <LineY id="intern" />
         <div className="contact__section-desc">
