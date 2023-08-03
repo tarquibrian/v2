@@ -1,6 +1,6 @@
 import Wrapper from "@/utils/wrapper";
 import React from "react";
-import imgtest from "../../../public/img/brand.jpg";
+import imgtest from "../../../public/img/v2values.png";
 import Image from "next/image";
 import { LineY } from "@/utils/line";
 

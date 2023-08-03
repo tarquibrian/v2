@@ -5,6 +5,7 @@ import BrandingIcon from "../components/icons/branding";
 import DesignIcon from "../components/icons/design";
 import ContentIcon from "../components/icons/content";
 import SupportIcon from "../components/icons/support";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -23,7 +24,9 @@ const Services = () => {
                     <BrandingIcon />
                   </div>
                   <div className="content">
-                    <h3 className="title-md">BRANDING</h3>
+                    <h3 className="title-md">
+                      <Link href={"/services"}>BRANDING</Link>
+                    </h3>
                     <p>
                       Get a compelling brand identity that leaves a lasting
                       impression.
@@ -36,30 +39,12 @@ const Services = () => {
               <Wrapper id="item" type="div">
                 <div className="grid__content-group">
                   <div className="logo">
-                    {/* <svg
-                      width="80"
-                      height="80"
-                      viewBox="0 0 80 80"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M40 79.5C50 50 50 50 79.5 40C50 30 50 30 40 0.5C30 30 30 30 0.5 40C30 50 30 50 40 79.5Z"
-                        stroke="black"
-                      />
-                      <path
-                        d="M40 50C42.5316 42.5316 42.5316 42.5316 50 40C42.5316 37.4684 42.5316 37.4684 40 30C37.4684 37.4684 37.4684 37.4684 30 40C37.4684 42.5316 37.4684 42.5316 40 50Z"
-                        stroke="black"
-                      />
-                      <path
-                        d="M40 65C46.3291 46.3291 46.3291 46.3291 65 40C46.3291 33.6709 46.3291 33.6709 40 15C33.6709 33.6709 33.6709 33.6709 15 40C33.6709 46.3291 33.6709 46.3291 40 65Z"
-                        stroke="black"
-                      />
-                    </svg> */}
                     <DesignIcon />
                   </div>
                   <div className="content">
-                    <h3 className="title-md">DESIGN</h3>
+                    <h3 className="title-md">
+                      <Link href={"/services"}>DESIGN</Link>
+                    </h3>
                     <p>
                       Bringing your ideas to life with innovative and aesthetic
                       designs.
@@ -77,7 +62,9 @@ const Services = () => {
                     <ContentIcon />
                   </div>
                   <div className="content">
-                    <h3 className="title-md">CONTENT</h3>
+                    <h3 className="title-md">
+                      <Link href={"/services"}>CONTENT</Link>
+                    </h3>
                     <p>
                       Engaging content that captivates attention and sparks
                       genuine connections.
@@ -93,7 +80,9 @@ const Services = () => {
                     <SupportIcon />
                   </div>
                   <div className="content">
-                    <h3 className="title-md">SUPPORT</h3>
+                    <h3 className="title-md">
+                      <Link href={"/services"}>SUPPORT</Link>
+                    </h3>
                     <p>
                       Overcome limitations and elevate your brand with dedicated
                       support.
