@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <header id="navbar">
       <div className="navbar-padding">
-        <Link href={"/"} className="logo">
+        <Link href={"/"} className="logo" aria-label="darvy logo main icon">
           <LogoIcon />
         </Link>
         <div className="navbar-content-main">

@@ -28,6 +28,7 @@ const Footer = () => {
                   href="http://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="linkeding social icon"
                 >
                   <LinkedinIcon />
                 </a>
@@ -35,6 +36,7 @@ const Footer = () => {
                   href="http://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="instagram social icon"
                 >
                   <InstagramIcon />
                 </a>
@@ -42,6 +44,7 @@ const Footer = () => {
                   href="http://dribbble.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="dribbble instagram social icon"
                 >
                   <DribbbleIcon />
                 </a>
@@ -49,6 +52,7 @@ const Footer = () => {
                   href="http://github.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="github social icon"
                 >
                   <GithubIcon />
                 </a>
@@ -79,7 +83,9 @@ const Footer = () => {
         </div>
       </Wrapper>
       <div className="author">
-        <div className="author-info">© 2023 DARVY STUDIO - ALL RIGHTS RESERVED.</div>
+        <div className="author-info">
+          © 2023 DARVY STUDIO - ALL RIGHTS RESERVED.
+        </div>
       </div>
     </footer>
   );
